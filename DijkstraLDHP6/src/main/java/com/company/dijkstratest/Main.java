@@ -18,7 +18,8 @@ public class Main
     public static void main(String[] args)
     {
         Main main = new Main();
-        main.go(args);
+        String a[] = {"phoneList.txt", "neighbordList.txt"};
+        main.go(a);
     }
 
     public void go(String[] args)
