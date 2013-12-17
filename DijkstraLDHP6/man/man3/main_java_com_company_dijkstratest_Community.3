@@ -1,0 +1,183 @@
+.TH "main.java.com.company.dijkstratest.Community" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.Community \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCommunity\fP (ArrayList< \fBVertex\fP > \fBvertices\fP, ArrayList< \fBVertex\fP > \fBtoBeProcessed\fP, ArrayList< \fBVertex\fP > \fBeliminatedList\fP)"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBbuildCommunity\fP ()"
+.br
+.ti -1c
+.RI "\fBVertex\fP \fBgetHighestCentralitied\fP ()"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBgetCommunityCandidates\fP (\fBVertex\fP highest)"
+.br
+.ti -1c
+.RI "void \fBdeleteCandidates\fP (ArrayList< \fBVertex\fP > cCandidates)"
+.br
+.ti -1c
+.RI "boolean \fBisIsolated\fP (\fBVertex\fP v)"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBresetSteps\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBtoBeProcessed\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBeliminatedList\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBPair\fP > \fBsteps\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBCommunity\fP is to find all the community candidates 
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file Community\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.Community (ArrayList< \fBVertex\fP >vertices, ArrayList< \fBVertex\fP >toBeProcessed, ArrayList< \fBVertex\fP >eliminatedList)"
+
+.PP
+Definition at line 17 of file Community\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.eliminatedList, main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.resetSteps(), main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.toBeProcessed, and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.vertices\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.buildCommunity ()"
+Build \fBCommunity\fP 
+.PP
+Definition at line 29 of file Community\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.deleteCandidates(), main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getCommunityCandidates(), main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getHighestCentralitied(), and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.toBeProcessed\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.deleteCandidates (ArrayList< \fBVertex\fP >cCandidates)"
+Delete community candidates from the original vertices 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcCandidates\fP 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.buildCommunity()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getCommunityCandidates (\fBVertex\fPhighest)"
+Get the vertices which belong to the community
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhighest\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 65 of file Community\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.steps\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.buildCommunity()\&.
+.SS "\fBVertex\fP main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getHighestCentralitied ()"
+Get the vertex which has the highest centrality/smallest diameter
+.PP
+\fBReturns:\fP
+.RS 4
+highest vertex 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file Community\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.isIsolated(), and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.vertices\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.buildCommunity()\&.
+.SS "boolean main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.isIsolated (\fBVertex\fPv)"
+Checking whether a vertex is isolated If it is, it will not be chosen as a highest centrality vertex\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIv\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 101 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getHighestCentralitied()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.resetSteps ()\fC [private]\fP"
+Set the steps to the eliminated vertex to be INFINITY\&. 
+.PP
+Definition at line 123 of file Community\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.eliminatedList, and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.vertices\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.Community()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.eliminatedList\fC [private]\fP"
+
+.PP
+Definition at line 14 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.Community(), and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.resetSteps()\&.
+.SS "ArrayList<\fBPair\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.steps\fC [private]\fP"
+
+.PP
+Definition at line 15 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getCommunityCandidates()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.toBeProcessed\fC [private]\fP"
+
+.PP
+Definition at line 13 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.buildCommunity(), and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.Community()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.vertices\fC [private]\fP"
+
+.PP
+Definition at line 12 of file Community\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.Community(), main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.getHighestCentralitied(), and main\&.java\&.com\&.company\&.dijkstratest\&.Community\&.resetSteps()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

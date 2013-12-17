@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_28a083f4f6983168a4525eb7df1d313c" kind="dir">
+    <compoundname>help</compoundname>
+    <innerfile refid="_dijkstra_8java">Dijkstra.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/"/>
+  </compounddef>
+</doxygen>

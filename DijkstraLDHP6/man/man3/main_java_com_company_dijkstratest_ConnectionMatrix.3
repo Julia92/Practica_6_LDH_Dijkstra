@@ -1,0 +1,148 @@
+.TH "main.java.com.company.dijkstratest.ConnectionMatrix" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.ConnectionMatrix \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBConnectionMatrix\fP (ArrayList< \fBVertex\fP > \fBvertices\fP, ArrayList< String > \fBadjacencyList\fP)"
+.br
+.ti -1c
+.RI "void \fBbuildConnectionMatrix\fP ()"
+.br
+.ti -1c
+.RI "void \fBregisterAdjacenciesToEachVertex\fP ()"
+.br
+.ti -1c
+.RI "String[] \fBsplitOpCp\fP (String opCp)"
+.br
+.ti -1c
+.RI "void \fBfillGrid\fP ()"
+.br
+.ti -1c
+.RI "void \fBdisplayConnectionMatrix\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "final ArrayList< String > \fBadjacencyList\fP"
+.br
+.ti -1c
+.RI "final ArrayList< \fBVertex\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "final ArrayList< ArrayList
+.br
+< Integer > > \fBmatrix\fP = new ArrayList<ArrayList<Integer>>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Find the neighbor-relationship among all subscribers, and then build a connection matrix based on the neighborhood relationship
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 11 of file ConnectionMatrix\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.ConnectionMatrix (ArrayList< \fBVertex\fP >vertices, ArrayList< String >adjacencyList)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsubscribersList\fP list of all subscribers 
+.br
+\fIadjacencyList\fP list of all neighbors 
+.RE
+.PP
+
+.PP
+Definition at line 23 of file ConnectionMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.adjacencyList, and main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.vertices\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.buildConnectionMatrix ()"
+
+.PP
+Definition at line 29 of file ConnectionMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.displayConnectionMatrix(), main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.fillGrid(), and main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.registerAdjacenciesToEachVertex()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.displayConnectionMatrix ()"
+
+.PP
+Definition at line 98 of file ConnectionMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.matrix\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.buildConnectionMatrix()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.fillGrid ()"
+Build the Connection matrix base on the choose subscriber's neighborhood info with other subscribers 
+.PP
+Definition at line 77 of file ConnectionMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.vertices\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.buildConnectionMatrix()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.registerAdjacenciesToEachVertex ()"
+
+.PP
+Definition at line 37 of file ConnectionMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.adjacencyList, main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.splitOpCp(), and main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.vertices\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.buildConnectionMatrix()\&.
+.SS "String [] main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.splitOpCp (StringopCp)"
+Split the 'op-cp' form, and put op and cp into an array
+.PP
+\fBParameters:\fP
+.RS 4
+\fIopCp\fP the 'op-cp' String 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+an array holds both op and cp 
+.RE
+.PP
+
+.PP
+Definition at line 67 of file ConnectionMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.registerAdjacenciesToEachVertex()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final ArrayList<String> main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.adjacencyList\fC [private]\fP"
+
+.PP
+Definition at line 13 of file ConnectionMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.ConnectionMatrix(), and main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.registerAdjacenciesToEachVertex()\&.
+.SS "final ArrayList<ArrayList<Integer> > main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.matrix = new ArrayList<ArrayList<Integer>>()\fC [private]\fP"
+
+.PP
+Definition at line 15 of file ConnectionMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.displayConnectionMatrix()\&.
+.SS "final ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.vertices\fC [private]\fP"
+
+.PP
+Definition at line 14 of file ConnectionMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.ConnectionMatrix(), main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.fillGrid(), and main\&.java\&.com\&.company\&.dijkstratest\&.ConnectionMatrix\&.registerAdjacenciesToEachVertex()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_edge" kind="class" prot="package">
+    <compoundname>Edge</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_edge_1a8be24fd7a0b795afd31799f8b4e5c48c" prot="public" static="no" mutable="no">
+        <type>final Vertex</type>
+        <definition>final Vertex Edge.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="50" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_edge_1afc5c47df07c817ef20d2c6d4adea0c0b" prot="public" static="no" mutable="no">
+        <type>final double</type>
+        <definition>final double Edge.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="51" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_edge_1ad086c85a549d3d917d20e45b6e4dbd5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Edge.Edge</definition>
+        <argsstring>(Vertex argTarget, double argWeight)</argsstring>
+        <name>Edge</name>
+        <param>
+          <type>Vertex</type>
+          <declname>argTarget</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>argWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="52" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="52" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="57">
+        <label>Vertex</label>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="usage">
+          <edgelabel>previous</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Edge</label>
+        <childnode refid="57" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Comparable&lt;Vertex&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="49" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="48" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_edge_1ad086c85a549d3d917d20e45b6e4dbd5c" prot="public" virt="non-virtual"><scope>Edge</scope><name>Edge</name></member>
+      <member refid="class_edge_1a8be24fd7a0b795afd31799f8b4e5c48c" prot="public" virt="non-virtual"><scope>Edge</scope><name>target</name></member>
+      <member refid="class_edge_1afc5c47df07c817ef20d2c6d4adea0c0b" prot="public" virt="non-virtual"><scope>Edge</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

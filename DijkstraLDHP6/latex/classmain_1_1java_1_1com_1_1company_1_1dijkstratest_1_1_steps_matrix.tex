@@ -1,0 +1,279 @@
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix}{\section{main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix Class Reference}
+\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix}\index{main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix@{main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix}}
+}
+
+
+Collaboration diagram for main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a656c4786dc8adb10dc37018d8c2c1e66}{Steps\-Matrix} (Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a1a3eb1ca85e39b9b704bfe7e26256afb}{vertices}, Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa51c97e07faba7d835f614554810ab44}{to\-Be\-Processed}, Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_af820b561be0222cbf21fd2a6134047b2}{eliminated\-List})
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a25baaea9cd4f24583b9f81b317b88245}{build\-Steps\-Matrix} ()
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a0d41b80e6dd2a43ac0da575866d00a32}{calculate\-Shortest\-Path} (\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} source)
+\item 
+float \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa0ceb165ab3fe248dace9dce3c9fd1c6}{get\-Centrality} (int diameter)
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a15b14136df6c93f78deff3e498093c5a}{reset} (Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a1a3eb1ca85e39b9b704bfe7e26256afb}{vertices})
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a78a89eed56a05139649e2a34fd6b4fa7}{recovery} (\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} source, int diameter)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a1a3eb1ca85e39b9b704bfe7e26256afb}{vertices}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa51c97e07faba7d835f614554810ab44}{to\-Be\-Processed}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_af820b561be0222cbf21fd2a6134047b2}{eliminated\-List}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_acb65a2ac68a2b40a4aca6fe2d9276f0d}{being\-Returned} = new Array\-List$<$\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex}$>$()
+\item 
+int \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a9f574c424ce414987499434ed7311858}{size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_dijkstra}{Dijkstra}\-: find the shortest path to vertices \begin{DoxyAuthor}{Author}
+hzhang 
+\end{DoxyAuthor}
+
+
+Definition at line 13 of file Steps\-Matrix.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a656c4786dc8adb10dc37018d8c2c1e66}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!Steps\-Matrix@{Steps\-Matrix}}
+\index{Steps\-Matrix@{Steps\-Matrix}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{Steps\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-Steps\-Matrix (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{vertices, }
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{to\-Be\-Processed, }
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{eliminated\-List}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a656c4786dc8adb10dc37018d8c2c1e66}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em vertices} & total vertices \\
+\hline
+{\em to\-Be\-Processed} & community candidates which will be processed \\
+\hline
+{\em eliminated\-List} & the eliminated vertices \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 27 of file Steps\-Matrix.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-eliminated\-List, main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-size, main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-to\-Be\-Processed, and main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-vertices.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a25baaea9cd4f24583b9f81b317b88245}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!build\-Steps\-Matrix@{build\-Steps\-Matrix}}
+\index{build\-Steps\-Matrix@{build\-Steps\-Matrix}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{build\-Steps\-Matrix}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a25baaea9cd4f24583b9f81b317b88245}
+Build the steps matrix. 
+
+Definition at line 42 of file Steps\-Matrix.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-being\-Returned, main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-calculate\-Shortest\-Path(), main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-get\-Centrality(), main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-recovery(), main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-reset(), main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-size, main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-to\-Be\-Processed, and main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-vertices.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a25baaea9cd4f24583b9f81b317b88245_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a0d41b80e6dd2a43ac0da575866d00a32}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!calculate\-Shortest\-Path@{calculate\-Shortest\-Path}}
+\index{calculate\-Shortest\-Path@{calculate\-Shortest\-Path}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{calculate\-Shortest\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-calculate\-Shortest\-Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Vertex}}]{source}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a0d41b80e6dd2a43ac0da575866d00a32}
+Calculate the shortest path based on D\-I\-J\-K\-S\-T\-R\-A algorithm. 
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 81 of file Steps\-Matrix.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Vertex.\-get\-Adjacencies(), and main.\-java.\-com.\-company.\-dijkstratest.\-Vertex.\-get\-Weight().
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix().
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a0d41b80e6dd2a43ac0da575866d00a32_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa0ceb165ab3fe248dace9dce3c9fd1c6}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!get\-Centrality@{get\-Centrality}}
+\index{get\-Centrality@{get\-Centrality}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{get\-Centrality}]{\setlength{\rightskip}{0pt plus 5cm}float main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-get\-Centrality (
+\begin{DoxyParamCaption}
+\item[{int}]{diameter}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa0ceb165ab3fe248dace9dce3c9fd1c6}
+Return the centrality with two digits fractions 
+\begin{DoxyParams}{Parameters}
+{\em diameter} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 109 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a78a89eed56a05139649e2a34fd6b4fa7}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!recovery@{recovery}}
+\index{recovery@{recovery}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{recovery}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-recovery (
+\begin{DoxyParamCaption}
+\item[{{\bf Vertex}}]{source, }
+\item[{int}]{diameter}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a78a89eed56a05139649e2a34fd6b4fa7}
+put the vertices whose diameter $>$ 10 back to the original vertices 
+\begin{DoxyParams}{Parameters}
+{\em source} & \\
+\hline
+{\em diameter} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 132 of file Steps\-Matrix.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-to\-Be\-Processed.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a15b14136df6c93f78deff3e498093c5a}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!reset@{reset}}
+\index{reset@{reset}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-reset (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{vertices}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a15b14136df6c93f78deff3e498093c5a}
+Reset the minimum value to 0 
+\begin{DoxyParams}{Parameters}
+{\em vertices} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 119 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix().
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_acb65a2ac68a2b40a4aca6fe2d9276f0d}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!being\-Returned@{being\-Returned}}
+\index{being\-Returned@{being\-Returned}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{being\-Returned}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-being\-Returned = new Array\-List$<${\bf Vertex}$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_acb65a2ac68a2b40a4aca6fe2d9276f0d}
+
+
+Definition at line 18 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_af820b561be0222cbf21fd2a6134047b2}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!eliminated\-List@{eliminated\-List}}
+\index{eliminated\-List@{eliminated\-List}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{eliminated\-List}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-eliminated\-List\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_af820b561be0222cbf21fd2a6134047b2}
+
+
+Definition at line 17 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a9f574c424ce414987499434ed7311858}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!size@{size}}
+\index{size@{size}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-size\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a9f574c424ce414987499434ed7311858}
+
+
+Definition at line 19 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix(), and main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa51c97e07faba7d835f614554810ab44}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!to\-Be\-Processed@{to\-Be\-Processed}}
+\index{to\-Be\-Processed@{to\-Be\-Processed}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{to\-Be\-Processed}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-to\-Be\-Processed\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_aa51c97e07faba7d835f614554810ab44}
+
+
+Definition at line 16 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix(), main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-recovery(), and main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-Steps\-Matrix().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a1a3eb1ca85e39b9b704bfe7e26256afb}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}!vertices@{vertices}}
+\index{vertices@{vertices}!main::java::com::company::dijkstratest::StepsMatrix@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Steps\-Matrix}}
+\subsubsection[{vertices}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-vertices\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_a1a3eb1ca85e39b9b704bfe7e26256afb}
+
+
+Definition at line 15 of file Steps\-Matrix.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-build\-Steps\-Matrix(), and main.\-java.\-com.\-company.\-dijkstratest.\-Steps\-Matrix.\-Steps\-Matrix().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/company/dijkstratest/\hyperlink{_steps_matrix_8java}{Steps\-Matrix.\-java}\end{DoxyCompactItemize}

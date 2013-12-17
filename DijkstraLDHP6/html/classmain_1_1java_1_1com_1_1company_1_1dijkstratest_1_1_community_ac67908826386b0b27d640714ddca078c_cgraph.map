@@ -1,0 +1,6 @@
+<map id="main.java.com.company.dijkstratest.Community.buildCommunity" name="main.java.com.company.dijkstratest.Community.buildCommunity">
+<area shape="rect" id="node3" href="$classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community.html#aba4c016c6178f4b4f6e2a29874c0c619" title="main.java.com.company.dijkstratest.\lCommunity.deleteCandidates" alt="" coords="295,5,531,46"/>
+<area shape="rect" id="node5" href="$classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community.html#a11c0953e985a94460b905218c3c80291" title="main.java.com.company.dijkstratest.\lCommunity.getCommunityCandidates" alt="" coords="291,70,535,111"/>
+<area shape="rect" id="node7" href="$classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community.html#af8ba9d3ca770ca1683efe6e0b842d2d5" title="main.java.com.company.dijkstratest.\lCommunity.getHighestCentralitied" alt="" coords="295,135,531,177"/>
+<area shape="rect" id="node9" href="$classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community.html#ab4d06c5bd90490a5713b1aa083cdeef9" title="main.java.com.company.dijkstratest.\lCommunity.isIsolated" alt="" coords="585,135,821,177"/>
+</map>

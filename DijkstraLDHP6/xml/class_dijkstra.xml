@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_dijkstra" kind="class" prot="public">
+    <compoundname>Dijkstra</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dijkstra_1a0ae42b709899e084d6910727ef0da3fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dijkstra.computePaths</definition>
+        <argsstring>(Vertex source)</argsstring>
+        <name>computePaths</name>
+        <param>
+          <type>Vertex</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="58" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="58" bodyend="82"/>
+        <referencedby refid="class_dijkstra_1a8be51d89fb674d80b69a75bba223d529" compoundref="_dijkstra_8java" startline="94" endline="128">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_dijkstra_1a76b0c0b81ad3157dd93d4038b35906ae" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vertex &gt;</type>
+        <definition>static List&lt;Vertex&gt; Dijkstra.getShortestPathTo</definition>
+        <argsstring>(Vertex target)</argsstring>
+        <name>getShortestPathTo</name>
+        <param>
+          <type>Vertex</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="84" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="84" bodyend="92"/>
+        <referencedby refid="class_dijkstra_1a8be51d89fb674d80b69a75bba223d529" compoundref="_dijkstra_8java" startline="94" endline="128">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_dijkstra_1a8be51d89fb674d80b69a75bba223d529" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Dijkstra.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="94" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="94" bodyend="128"/>
+        <references refid="class_dijkstra_1a0ae42b709899e084d6910727ef0da3fd" compoundref="_dijkstra_8java" startline="58" endline="82">computePaths</references>
+        <references refid="class_dijkstra_1a76b0c0b81ad3157dd93d4038b35906ae" compoundref="_dijkstra_8java" startline="84" endline="92">getShortestPathTo</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="57" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="56" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_dijkstra_1a0ae42b709899e084d6910727ef0da3fd" prot="public" virt="non-virtual"><scope>Dijkstra</scope><name>computePaths</name></member>
+      <member refid="class_dijkstra_1a76b0c0b81ad3157dd93d4038b35906ae" prot="public" virt="non-virtual"><scope>Dijkstra</scope><name>getShortestPathTo</name></member>
+      <member refid="class_dijkstra_1a8be51d89fb674d80b69a75bba223d529" prot="public" virt="non-virtual"><scope>Dijkstra</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

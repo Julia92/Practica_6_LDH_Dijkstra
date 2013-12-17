@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::Vertex</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Vertex &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a17e38182d49640463ff2a93a55dd12d8" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int main.java.com.company.dijkstratest.Vertex.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The weight of each vertex, now all weight is 1 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="25" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a37e1d362f47485e54f2e0a9cf56ac8c3" compoundref="_vertex_8java" startline="26" endline="26">main.java.com.company.dijkstratest.Vertex.getWeight</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a4ea46fdc17ccba35d2a35e4b70bff997" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.minDistance</definition>
+        <argsstring></argsstring>
+        <name>minDistance</name>
+        <initializer>= Integer.MAX_VALUE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The minimum distance </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="31" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a0afd4e2eb4689ac8a4682b3c0f6e32d2" compoundref="_vertex_8java" startline="33" endline="33">main.java.com.company.dijkstratest.Vertex.getMinDistance</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1afe351de304209254ba6efdfdff362a27" compoundref="_vertex_8java" startline="32" endline="32">main.java.com.company.dijkstratest.Vertex.setMinDistance</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a748206c2f117a19e74469881e71b2415" prot="private" static="no" mutable="no">
+        <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+        <definition>Vertex main.java.com.company.dijkstratest.Vertex.previous</definition>
+        <argsstring></argsstring>
+        <name>previous</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>We don&apos;t use it now </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="38" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a925585cbe8eb8ee5bf74b0cb58d388df" compoundref="_vertex_8java" startline="40" endline="40">main.java.com.company.dijkstratest.Vertex.getPrevious</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec5f28d756beeb653fa52e733c2db139" compoundref="_vertex_8java" startline="39" endline="39">main.java.com.company.dijkstratest.Vertex.setPrevious</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1acb5df443c451a3c4f11b48b4fd5a7c46" prot="private" static="no" mutable="no">
+        <type>HashSet&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>HashSet&lt;Vertex&gt; main.java.com.company.dijkstratest.Vertex.adjacencies</definition>
+        <argsstring></argsstring>
+        <name>adjacencies</name>
+        <initializer>= new HashSet&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="42" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ad4896ef0f829054d9a765436cdda7804" compoundref="_vertex_8java" startline="44" endline="44">main.java.com.company.dijkstratest.Vertex.getAdjacencies</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a21bd658cd178bffda298570f221cdfce" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>ArrayList&lt;Pair&gt; main.java.com.company.dijkstratest.Vertex.steps</definition>
+        <argsstring></argsstring>
+        <name>steps</name>
+        <initializer>= new ArrayList&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Steps is an arrayList hold all steps from current vertex to all other vertices </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="49" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aac9933bc854f3b3a427c7467824e29de" compoundref="_vertex_8java" startline="51" endline="51">main.java.com.company.dijkstratest.Vertex.getSteps</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a79d03d4b51e85227fd64ee15a54895bb" compoundref="_vertex_8java" startline="72" endline="81">main.java.com.company.dijkstratest.Vertex.removeSteps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String main.java.com.company.dijkstratest.Vertex.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="56" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" compoundref="_vertex_8java" startline="57" endline="57">main.java.com.company.dijkstratest.Vertex.getName</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a1c40f05bb5ba581ad9c48b7a26027310" compoundref="_vertex_8java" startline="67" endline="67">main.java.com.company.dijkstratest.Vertex.toString</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5c4df011dc24230cf67918f0d1c6b8f9" compoundref="_vertex_8java" startline="19" endline="19">main.java.com.company.dijkstratest.Vertex.Vertex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1af5f0b296f64910fb629a69b8e39b6498" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.diameter</definition>
+        <argsstring></argsstring>
+        <name>diameter</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Diameter </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="62" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aa1ee193d9f7d429f80d3fb2f1f2df58e" compoundref="_vertex_8java" startline="63" endline="63">main.java.com.company.dijkstratest.Vertex.setDiameter</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5c4df011dc24230cf67918f0d1c6b8f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.Vertex.Vertex</definition>
+        <argsstring>(String name)</argsstring>
+        <name>Vertex</name>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor Initial vertex name and default weight</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertex name </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="19" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="19" bodyend="19"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" compoundref="_vertex_8java" startline="56">main.java.com.company.dijkstratest.Vertex.name</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a37e1d362f47485e54f2e0a9cf56ac8c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.getWeight</definition>
+        <argsstring>()</argsstring>
+        <name>getWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="26" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="26" bodyend="26"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a17e38182d49640463ff2a93a55dd12d8" compoundref="_vertex_8java" startline="25">main.java.com.company.dijkstratest.Vertex.weight</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" compoundref="_steps_matrix_8java" startline="81" endline="102">main.java.com.company.dijkstratest.StepsMatrix.calculateShortestPath</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1afe351de304209254ba6efdfdff362a27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.setMinDistance</definition>
+        <argsstring>(int distance)</argsstring>
+        <name>setMinDistance</name>
+        <param>
+          <type>int</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="32" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="32" bodyend="32"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a4ea46fdc17ccba35d2a35e4b70bff997" compoundref="_vertex_8java" startline="31">main.java.com.company.dijkstratest.Vertex.minDistance</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a0afd4e2eb4689ac8a4682b3c0f6e32d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.getMinDistance</definition>
+        <argsstring>()</argsstring>
+        <name>getMinDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="33" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="33" bodyend="33"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a4ea46fdc17ccba35d2a35e4b70bff997" compoundref="_vertex_8java" startline="31">main.java.com.company.dijkstratest.Vertex.minDistance</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec5f28d756beeb653fa52e733c2db139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.setPrevious</definition>
+        <argsstring>(Vertex vertex)</argsstring>
+        <name>setPrevious</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>vertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="39" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="39" bodyend="39"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a748206c2f117a19e74469881e71b2415" compoundref="_vertex_8java" startline="38">main.java.com.company.dijkstratest.Vertex.previous</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a925585cbe8eb8ee5bf74b0cb58d388df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+        <definition>Vertex main.java.com.company.dijkstratest.Vertex.getPrevious</definition>
+        <argsstring>()</argsstring>
+        <name>getPrevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="40" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="40" bodyend="40"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a748206c2f117a19e74469881e71b2415" compoundref="_vertex_8java" startline="38">main.java.com.company.dijkstratest.Vertex.previous</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec87153fc8c4f42b11c97c9566c9bfd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.setAdjacencies</definition>
+        <argsstring>(Vertex...vertexList)</argsstring>
+        <name>setAdjacencies</name>
+        <param>
+          <type>Vertex...</type>
+          <declname>vertexList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="43" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ad4896ef0f829054d9a765436cdda7804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HashSet&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>HashSet&lt;Vertex&gt; main.java.com.company.dijkstratest.Vertex.getAdjacencies</definition>
+        <argsstring>()</argsstring>
+        <name>getAdjacencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="44" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="44" bodyend="44"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1acb5df443c451a3c4f11b48b4fd5a7c46" compoundref="_vertex_8java" startline="42">main.java.com.company.dijkstratest.Vertex.adjacencies</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" compoundref="_steps_matrix_8java" startline="81" endline="102">main.java.com.company.dijkstratest.StepsMatrix.calculateShortestPath</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ab66f86a13171527e0c762e90eef3dc5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.setSteps</definition>
+        <argsstring>(Vertex v, int integer)</argsstring>
+        <name>setSteps</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>integer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="50" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aac9933bc854f3b3a427c7467824e29de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>ArrayList&lt;Pair&gt; main.java.com.company.dijkstratest.Vertex.getSteps</definition>
+        <argsstring>()</argsstring>
+        <name>getSteps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="51" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="51" bodyend="51"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a21bd658cd178bffda298570f221cdfce" compoundref="_vertex_8java" startline="49">main.java.com.company.dijkstratest.Vertex.steps</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String main.java.com.company.dijkstratest.Vertex.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="57" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="57" bodyend="57"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" compoundref="_vertex_8java" startline="56">main.java.com.company.dijkstratest.Vertex.name</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5fc177277ea1d740a9bfcc71d58fe439" compoundref="_vertex_8java" startline="70" endline="70">main.java.com.company.dijkstratest.Vertex.compareTo</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a79d03d4b51e85227fd64ee15a54895bb" compoundref="_vertex_8java" startline="72" endline="81">main.java.com.company.dijkstratest.Vertex.removeSteps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aa1ee193d9f7d429f80d3fb2f1f2df58e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.setDiameter</definition>
+        <argsstring>(int diameter)</argsstring>
+        <name>setDiameter</name>
+        <param>
+          <type>int</type>
+          <declname>diameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="63" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="63" bodyend="63"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1af5f0b296f64910fb629a69b8e39b6498" compoundref="_vertex_8java" startline="62">main.java.com.company.dijkstratest.Vertex.diameter</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a7db864a45fcb444f523cdff89a68479a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.getDiameter</definition>
+        <argsstring>()</argsstring>
+        <name>getDiameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="64" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a1c40f05bb5ba581ad9c48b7a26027310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String main.java.com.company.dijkstratest.Vertex.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="67" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="67" bodyend="67"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" compoundref="_vertex_8java" startline="56">main.java.com.company.dijkstratest.Vertex.name</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5fc177277ea1d740a9bfcc71d58fe439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Vertex.compareTo</definition>
+        <argsstring>(Vertex other)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="70" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="70" bodyend="70"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" compoundref="_vertex_8java" startline="57" endline="57">main.java.com.company.dijkstratest.Vertex.getName</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a79d03d4b51e85227fd64ee15a54895bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Vertex.removeSteps</definition>
+        <argsstring>(Vertex v)</argsstring>
+        <name>removeSteps</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="72" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="72" bodyend="81"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" compoundref="_vertex_8java" startline="57" endline="57">main.java.com.company.dijkstratest.Vertex.getName</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a21bd658cd178bffda298570f221cdfce" compoundref="_vertex_8java" startline="49">main.java.com.company.dijkstratest.Vertex.steps</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> Information <simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>Comparable&lt; Vertex &gt;</label>
+      </node>
+      <node id="83">
+        <label>main.java.com.company.dijkstratest.Vertex</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>Comparable&lt; Vertex &gt;</label>
+      </node>
+      <node id="87">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Pair &gt;</label>
+      </node>
+      <node id="85">
+        <label>main.java.com.company.dijkstratest.Vertex</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>previous</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>steps</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="88">
+        <label>HashSet&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Vertex.java" bodystart="11" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1acb5df443c451a3c4f11b48b4fd5a7c46" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>adjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5fc177277ea1d740a9bfcc71d58fe439" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>compareTo</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1af5f0b296f64910fb629a69b8e39b6498" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>diameter</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ad4896ef0f829054d9a765436cdda7804" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getAdjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a7db864a45fcb444f523cdff89a68479a" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getDiameter</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a0afd4e2eb4689ac8a4682b3c0f6e32d2" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getMinDistance</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getName</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a925585cbe8eb8ee5bf74b0cb58d388df" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getPrevious</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aac9933bc854f3b3a427c7467824e29de" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getSteps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a37e1d362f47485e54f2e0a9cf56ac8c3" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>getWeight</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a4ea46fdc17ccba35d2a35e4b70bff997" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>minDistance</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>name</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a748206c2f117a19e74469881e71b2415" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>previous</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a79d03d4b51e85227fd64ee15a54895bb" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>removeSteps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec87153fc8c4f42b11c97c9566c9bfd9" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>setAdjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aa1ee193d9f7d429f80d3fb2f1f2df58e" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>setDiameter</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1afe351de304209254ba6efdfdff362a27" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>setMinDistance</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec5f28d756beeb653fa52e733c2db139" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>setPrevious</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ab66f86a13171527e0c762e90eef3dc5e" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>setSteps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a21bd658cd178bffda298570f221cdfce" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>steps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a1c40f05bb5ba581ad9c48b7a26027310" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>toString</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5c4df011dc24230cf67918f0d1c6b8f9" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>Vertex</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a17e38182d49640463ff2a93a55dd12d8" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Vertex</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

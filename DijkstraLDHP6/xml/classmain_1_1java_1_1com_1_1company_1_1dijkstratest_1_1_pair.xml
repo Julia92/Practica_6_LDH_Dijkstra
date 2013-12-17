@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::Pair</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Pair &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a1060ef3a7196fae57fde28c911ad02a0" prot="private" static="no" mutable="no">
+        <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+        <definition>Vertex main.java.com.company.dijkstratest.Pair.vertex</definition>
+        <argsstring></argsstring>
+        <name>vertex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="9" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a84296cc6eaa19d0f50f8ca98a7c98639" compoundref="_pair_8java" startline="18" endline="21">main.java.com.company.dijkstratest.Pair.getVertex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a4bc5c040004202d37e76798124cb1624" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Pair.stepNumber</definition>
+        <argsstring></argsstring>
+        <name>stepNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="10" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a05b2374c70c937227f898b1cea0fe910" compoundref="_pair_8java" startline="28" endline="31">main.java.com.company.dijkstratest.Pair.getStepNumber</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1aede90e0406606c28b1565dafcf2cedda" compoundref="_pair_8java" startline="23" endline="26">main.java.com.company.dijkstratest.Pair.setStepNumberToInfinity</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a211595a122698caf689814de3104723b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.Pair.Pair</definition>
+        <argsstring>(Vertex v, int s)</argsstring>
+        <name>Pair</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a84296cc6eaa19d0f50f8ca98a7c98639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+        <definition>Vertex main.java.com.company.dijkstratest.Pair.getVertex</definition>
+        <argsstring>()</argsstring>
+        <name>getVertex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="18" bodyend="21"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a1060ef3a7196fae57fde28c911ad02a0" compoundref="_pair_8java" startline="9">main.java.com.company.dijkstratest.Pair.vertex</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1adf087853df8cae9edc2c5b206e98a740" compoundref="_pair_8java" startline="38" endline="54">main.java.com.company.dijkstratest.Pair.compareTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1aede90e0406606c28b1565dafcf2cedda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Pair.setStepNumberToInfinity</definition>
+        <argsstring>()</argsstring>
+        <name>setStepNumberToInfinity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="23" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="23" bodyend="26"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a4bc5c040004202d37e76798124cb1624" compoundref="_pair_8java" startline="10">main.java.com.company.dijkstratest.Pair.stepNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a05b2374c70c937227f898b1cea0fe910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Pair.getStepNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getStepNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="28" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="28" bodyend="31"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a4bc5c040004202d37e76798124cb1624" compoundref="_pair_8java" startline="10">main.java.com.company.dijkstratest.Pair.stepNumber</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1adf087853df8cae9edc2c5b206e98a740" compoundref="_pair_8java" startline="38" endline="54">main.java.com.company.dijkstratest.Pair.compareTo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1adf087853df8cae9edc2c5b206e98a740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.Pair.compareTo</definition>
+        <argsstring>(Pair other)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sort <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref> object <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="38" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="38" bodyend="54"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a05b2374c70c937227f898b1cea0fe910" compoundref="_pair_8java" startline="28" endline="31">main.java.com.company.dijkstratest.Pair.getStepNumber</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a84296cc6eaa19d0f50f8ca98a7c98639" compoundref="_pair_8java" startline="18" endline="21">main.java.com.company.dijkstratest.Pair.getVertex</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref> hold vertex and the steps from the vertex to all others <simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>Comparable&lt; Pair &gt;</label>
+      </node>
+      <node id="63">
+        <label>main.java.com.company.dijkstratest.Pair</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>Comparable&lt; Pair &gt;</label>
+      </node>
+      <node id="68">
+        <label>Comparable&lt; Vertex &gt;</label>
+      </node>
+      <node id="69">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Pair &gt;</label>
+      </node>
+      <node id="67">
+        <label>main.java.com.company.dijkstratest.Vertex</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>previous</edgelabel>
+        </childnode>
+        <childnode refid="69" relation="usage">
+          <edgelabel>steps</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="70">
+        <label>HashSet&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="65">
+        <label>main.java.com.company.dijkstratest.Pair</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="67" relation="usage">
+          <edgelabel>vertex</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" line="8" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Pair.java" bodystart="7" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1adf087853df8cae9edc2c5b206e98a740" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>compareTo</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a05b2374c70c937227f898b1cea0fe910" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>getStepNumber</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a84296cc6eaa19d0f50f8ca98a7c98639" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>getVertex</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a211595a122698caf689814de3104723b" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>Pair</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1aede90e0406606c28b1565dafcf2cedda" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>setStepNumberToInfinity</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a4bc5c040004202d37e76798124cb1624" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>stepNumber</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a1060ef3a7196fae57fde28c911ad02a0" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Pair</scope><name>vertex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

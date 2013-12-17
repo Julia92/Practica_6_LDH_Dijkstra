@@ -1,0 +1,122 @@
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration}{\section{main.\-java.\-com.\-company.\-dijkstratest.\-Registration Class Reference}
+\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration}\index{main.\-java.\-com.\-company.\-dijkstratest.\-Registration@{main.\-java.\-com.\-company.\-dijkstratest.\-Registration}}
+}
+
+
+Collaboration diagram for main.\-java.\-com.\-company.\-dijkstratest.\-Registration\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a0139c70aa03637c99ffbae2142572aba}{Registration} (Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_aacd4ad524e3c3d2d3e163ba14dc5e5d4}{vertices}, Array\-List$<$ String $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a7a40c90a5de4173de7d70214b1c22700}{adjacencies})
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_adc93e97fd7f83981bad275bd013f3cc6}{register\-Vertices} (String phones\-File)
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a1ce9fa88223cb28f8bd0e1052cadfe95}{register\-Adjacencies} (String adjacencies\-File)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Array\-List$<$ String $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a7a40c90a5de4173de7d70214b1c22700}{adjacencies}
+\item 
+final Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_aacd4ad524e3c3d2d3e163ba14dc5e5d4}{vertices}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Read phone information and phones-\/neighborhood relationship info from two files \begin{DoxyAuthor}{Author}
+hzhang 
+\end{DoxyAuthor}
+
+
+Definition at line 16 of file Registration.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a0139c70aa03637c99ffbae2142572aba}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}!Registration@{Registration}}
+\index{Registration@{Registration}!main::java::com::company::dijkstratest::Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}}
+\subsubsection[{Registration}]{\setlength{\rightskip}{0pt plus 5cm}main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-Registration (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{vertices, }
+\item[{Array\-List$<$ String $>$}]{adjacencies}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a0139c70aa03637c99ffbae2142572aba}
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em vertices} & list of all subscribers \\
+\hline
+{\em adjacencies} & list of connected phone pairs \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 27 of file Registration.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-adjacencies, and main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-vertices.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a1ce9fa88223cb28f8bd0e1052cadfe95}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}!register\-Adjacencies@{register\-Adjacencies}}
+\index{register\-Adjacencies@{register\-Adjacencies}!main::java::com::company::dijkstratest::Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}}
+\subsubsection[{register\-Adjacencies}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-register\-Adjacencies (
+\begin{DoxyParamCaption}
+\item[{String}]{adjacencies\-File}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a1ce9fa88223cb28f8bd0e1052cadfe95}
+Initializing all the phones who call/sms each other. Those \char`\"{}op-\/cp\char`\"{} pairs satisfy with the condition\-: F = 40(S\-M\-S/\-Month) \&\& 240(sec/\-Month) 
+
+Definition at line 64 of file Registration.\-java.
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_adc93e97fd7f83981bad275bd013f3cc6}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}!register\-Vertices@{register\-Vertices}}
+\index{register\-Vertices@{register\-Vertices}!main::java::com::company::dijkstratest::Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}}
+\subsubsection[{register\-Vertices}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-register\-Vertices (
+\begin{DoxyParamCaption}
+\item[{String}]{phones\-File}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_adc93e97fd7f83981bad275bd013f3cc6}
+Register subscribers with its phone numbers 
+
+Definition at line 36 of file Registration.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a7a40c90a5de4173de7d70214b1c22700}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}!adjacencies@{adjacencies}}
+\index{adjacencies@{adjacencies}!main::java::com::company::dijkstratest::Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}}
+\subsubsection[{adjacencies}]{\setlength{\rightskip}{0pt plus 5cm}final Array\-List$<$String$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-adjacencies\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_a7a40c90a5de4173de7d70214b1c22700}
+
+
+Definition at line 18 of file Registration.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-Registration().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_aacd4ad524e3c3d2d3e163ba14dc5e5d4}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}!vertices@{vertices}}
+\index{vertices@{vertices}!main::java::com::company::dijkstratest::Registration@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Registration}}
+\subsubsection[{vertices}]{\setlength{\rightskip}{0pt plus 5cm}final Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-vertices\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_aacd4ad524e3c3d2d3e163ba14dc5e5d4}
+
+
+Definition at line 19 of file Registration.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Registration.\-Registration().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/company/dijkstratest/\hyperlink{_registration_8java}{Registration.\-java}\end{DoxyCompactItemize}

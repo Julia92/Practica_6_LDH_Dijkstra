@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" kind="class"><name>test::java::com::company::dijkstratest::AppTest</name>
+    <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1ab8981b2f8304e8c357c461c6fcc4a0ef" kind="function"><name>AppTest</name></member>
+    <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1a8a8c57d59a43320f7dcc1e03ecf6050c" kind="function"><name>testApp</name></member>
+    <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1af663b7af9263e3cf82aedb00b10ef0ca" kind="function"><name>suite</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community" kind="class"><name>main::java::com::company::dijkstratest::Community</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" kind="variable"><name>vertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a2ccabf2789253dffe72aa412e7412f7d" kind="variable"><name>toBeProcessed</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a580104f4f16e9646bb1c4b3ea36c20a5" kind="variable"><name>eliminatedList</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1adbb6dc448c6e9ffdcd3207b5117e5ac6" kind="variable"><name>steps</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" kind="function"><name>Community</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" kind="function"><name>buildCommunity</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" kind="function"><name>getHighestCentralitied</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a11c0953e985a94460b905218c3c80291" kind="function"><name>getCommunityCandidates</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba4c016c6178f4b4f6e2a29874c0c619" kind="function"><name>deleteCandidates</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ab4d06c5bd90490a5713b1aa083cdeef9" kind="function"><name>isIsolated</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" kind="function"><name>resetSteps</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix" kind="class"><name>main::java::com::company::dijkstratest::ConnectionMatrix</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a0fcd8b3828105bd570fd97dca77db1ea" kind="variable"><name>adjacencyList</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" kind="variable"><name>vertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a3c077791f0b8164d8c19f67d250f43fd" kind="variable"><name>matrix</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1abf29234358773911d627a62f49502e95" kind="function"><name>ConnectionMatrix</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" kind="function"><name>buildConnectionMatrix</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" kind="function"><name>registerAdjacenciesToEachVertex</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a40c35866fd543064f675971e91a88a75" kind="function"><name>splitOpCp</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ab761efa04c328a3362d653a6612dd404" kind="function"><name>fillGrid</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ad305dcd4ab25d7628dd843451e1856be" kind="function"><name>displayConnectionMatrix</name></member>
+  </compound>
+  <compound refid="class_dijkstra" kind="class"><name>Dijkstra</name>
+    <member refid="class_dijkstra_1a0ae42b709899e084d6910727ef0da3fd" kind="function"><name>computePaths</name></member>
+    <member refid="class_dijkstra_1a76b0c0b81ad3157dd93d4038b35906ae" kind="function"><name>getShortestPathTo</name></member>
+    <member refid="class_dijkstra_1a8be51d89fb674d80b69a75bba223d529" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="class_edge" kind="class"><name>Edge</name>
+    <member refid="class_edge_1a8be24fd7a0b795afd31799f8b4e5c48c" kind="variable"><name>target</name></member>
+    <member refid="class_edge_1afc5c47df07c817ef20d2c6d4adea0c0b" kind="variable"><name>weight</name></member>
+    <member refid="class_edge_1ad086c85a549d3d917d20e45b6e4dbd5c" kind="function"><name>Edge</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main" kind="class"><name>main::java::com::company::dijkstratest::Main</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a0d4996e719ec846ccd4be7d21cdfb2e5" kind="variable"><name>adjacencies</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a9e9e1529522bffb58584b4f319e07217" kind="variable"><name>vertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a557eccaa4afe7d83cf6cc262d1ba1f3d" kind="variable"><name>toBeProcessed</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1af031de92d898217502e31dcd4d6c9539" kind="variable"><name>eliminatedList</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a41add3527abb4fb4d0c9640aa20fba59" kind="function"><name>main</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" kind="function"><name>go</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a3e5569d3503edf65388ea1b8fad02742" kind="function"><name>displayPrefix</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kind="class"><name>main::java::com::company::dijkstratest::Pair</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a1060ef3a7196fae57fde28c911ad02a0" kind="variable"><name>vertex</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a4bc5c040004202d37e76798124cb1624" kind="variable"><name>stepNumber</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a211595a122698caf689814de3104723b" kind="function"><name>Pair</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a84296cc6eaa19d0f50f8ca98a7c98639" kind="function"><name>getVertex</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1aede90e0406606c28b1565dafcf2cedda" kind="function"><name>setStepNumberToInfinity</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1a05b2374c70c937227f898b1cea0fe910" kind="function"><name>getStepNumber</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair_1adf087853df8cae9edc2c5b206e98a740" kind="function"><name>compareTo</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration" kind="class"><name>main::java::com::company::dijkstratest::Registration</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a7a40c90a5de4173de7d70214b1c22700" kind="variable"><name>adjacencies</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1aacd4ad524e3c3d2d3e163ba14dc5e5d4" kind="variable"><name>vertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a0139c70aa03637c99ffbae2142572aba" kind="function"><name>Registration</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1adc93e97fd7f83981bad275bd013f3cc6" kind="function"><name>registerVertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a1ce9fa88223cb28f8bd0e1052cadfe95" kind="function"><name>registerAdjacencies</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix" kind="class"><name>main::java::com::company::dijkstratest::StepsMatrix</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a1a3eb1ca85e39b9b704bfe7e26256afb" kind="variable"><name>vertices</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" kind="variable"><name>toBeProcessed</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1af820b561be0222cbf21fd2a6134047b2" kind="variable"><name>eliminatedList</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1acb65a2ac68a2b40a4aca6fe2d9276f0d" kind="variable"><name>beingReturned</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a9f574c424ce414987499434ed7311858" kind="variable"><name>size</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" kind="function"><name>StepsMatrix</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" kind="function"><name>buildStepsMatrix</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" kind="function"><name>calculateShortestPath</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa0ceb165ab3fe248dace9dce3c9fd1c6" kind="function"><name>getCentrality</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a15b14136df6c93f78deff3e498093c5a" kind="function"><name>reset</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a78a89eed56a05139649e2a34fd6b4fa7" kind="function"><name>recovery</name></member>
+  </compound>
+  <compound refid="class_vertex" kind="class"><name>Vertex</name>
+    <member refid="class_vertex_1a6f278d06addf274f9dfe1e97d0c3dcdc" kind="variable"><name>name</name></member>
+    <member refid="class_vertex_1ab64018801c6d14195c4e96e45bfc3059" kind="variable"><name>adjacencies</name></member>
+    <member refid="class_vertex_1a94dc988b1cfea0fda6c78827d925c2a8" kind="variable"><name>minDistance</name></member>
+    <member refid="class_vertex_1a3e4df79880cf87b5c6dd097f761db447" kind="variable"><name>previous</name></member>
+    <member refid="class_vertex_1ad869c402d64294dd162dc02dea3a9832" kind="function"><name>Vertex</name></member>
+    <member refid="class_vertex_1adbb0cc3d32b5d7587177d991155341d5" kind="function"><name>toString</name></member>
+    <member refid="class_vertex_1a0724da112f69f93ab158520d1cc6d7ce" kind="function"><name>compareTo</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kind="class"><name>main::java::com::company::dijkstratest::Vertex</name>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a17e38182d49640463ff2a93a55dd12d8" kind="variable"><name>weight</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a4ea46fdc17ccba35d2a35e4b70bff997" kind="variable"><name>minDistance</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a748206c2f117a19e74469881e71b2415" kind="variable"><name>previous</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1acb5df443c451a3c4f11b48b4fd5a7c46" kind="variable"><name>adjacencies</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a21bd658cd178bffda298570f221cdfce" kind="variable"><name>steps</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a2d3af47cee45105338487ebabe5d41af" kind="variable"><name>name</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1af5f0b296f64910fb629a69b8e39b6498" kind="variable"><name>diameter</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5c4df011dc24230cf67918f0d1c6b8f9" kind="function"><name>Vertex</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a37e1d362f47485e54f2e0a9cf56ac8c3" kind="function"><name>getWeight</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1afe351de304209254ba6efdfdff362a27" kind="function"><name>setMinDistance</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a0afd4e2eb4689ac8a4682b3c0f6e32d2" kind="function"><name>getMinDistance</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec5f28d756beeb653fa52e733c2db139" kind="function"><name>setPrevious</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a925585cbe8eb8ee5bf74b0cb58d388df" kind="function"><name>getPrevious</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aec87153fc8c4f42b11c97c9566c9bfd9" kind="function"><name>setAdjacencies</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ad4896ef0f829054d9a765436cdda7804" kind="function"><name>getAdjacencies</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ab66f86a13171527e0c762e90eef3dc5e" kind="function"><name>setSteps</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aac9933bc854f3b3a427c7467824e29de" kind="function"><name>getSteps</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a05c58848e7052edb8f08e827a84fcca2" kind="function"><name>getName</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1aa1ee193d9f7d429f80d3fb2f1f2df58e" kind="function"><name>setDiameter</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a7db864a45fcb444f523cdff89a68479a" kind="function"><name>getDiameter</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a1c40f05bb5ba581ad9c48b7a26027310" kind="function"><name>toString</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a5fc177277ea1d740a9bfcc71d58fe439" kind="function"><name>compareTo</name></member>
+    <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a79d03d4b51e85227fd64ee15a54895bb" kind="function"><name>removeSteps</name></member>
+  </compound>
+  <compound refid="namespacemain" kind="namespace"><name>main</name>
+  </compound>
+  <compound refid="namespacemain_1_1java" kind="namespace"><name>main::java</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1com" kind="namespace"><name>main::java::com</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1com_1_1company" kind="namespace"><name>main::java::com::company</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1com_1_1company_1_1dijkstratest" kind="namespace"><name>main::java::com::company::dijkstratest</name>
+  </compound>
+  <compound refid="namespacetest" kind="namespace"><name>test</name>
+  </compound>
+  <compound refid="namespacetest_1_1java" kind="namespace"><name>test::java</name>
+  </compound>
+  <compound refid="namespacetest_1_1java_1_1com" kind="namespace"><name>test::java::com</name>
+  </compound>
+  <compound refid="namespacetest_1_1java_1_1com_1_1company" kind="namespace"><name>test::java::com::company</name>
+  </compound>
+  <compound refid="namespacetest_1_1java_1_1com_1_1company_1_1dijkstratest" kind="namespace"><name>test::java::com::company::dijkstratest</name>
+  </compound>
+  <compound refid="_dijkstra_8java" kind="file"><name>Dijkstra.java</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_community_8java" kind="file"><name>Community.java</name>
+  </compound>
+  <compound refid="_connection_matrix_8java" kind="file"><name>ConnectionMatrix.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_pair_8java" kind="file"><name>Pair.java</name>
+  </compound>
+  <compound refid="_registration_8java" kind="file"><name>Registration.java</name>
+  </compound>
+  <compound refid="_steps_matrix_8java" kind="file"><name>StepsMatrix.java</name>
+  </compound>
+  <compound refid="_vertex_8java" kind="file"><name>Vertex.java</name>
+  </compound>
+  <compound refid="_app_test_8java" kind="file"><name>AppTest.java</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_23faaf0c5c81a0660a411c4a306acbb5" kind="dir"><name>src/test/java/com</name>
+  </compound>
+  <compound refid="dir_d8517d8b842053dc3dd7dde525dd9163" kind="dir"><name>src/main/java/com</name>
+  </compound>
+  <compound refid="dir_e2a380db099d6ee081598867c16360ea" kind="dir"><name>src/test/java/com/company</name>
+  </compound>
+  <compound refid="dir_6f55cf10581a28c3031dc94649224fb4" kind="dir"><name>src/main/java/com/company</name>
+  </compound>
+  <compound refid="dir_325ba0a39227a5a9a634bb0923b98b1b" kind="dir"><name>src/test/java/com/company/dijkstratest</name>
+  </compound>
+  <compound refid="dir_c7961e9f41eac43f2d10bf18070166cd" kind="dir"><name>src/main/java/com/company/dijkstratest</name>
+  </compound>
+  <compound refid="dir_28a083f4f6983168a4525eb7df1d313c" kind="dir"><name>help</name>
+  </compound>
+  <compound refid="dir_97debbc39e3b917fca663601bb2b0709" kind="dir"><name>src/test/java</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir"><name>src/main/java</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir"><name>src/main</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_120ed4da3e3217b1e7fc0b4f48568e79" kind="dir"><name>src/test</name>
+  </compound>
+</doxygenindex>

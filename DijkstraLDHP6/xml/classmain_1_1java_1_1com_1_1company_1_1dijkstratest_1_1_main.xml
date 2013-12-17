@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::Main</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a0d4996e719ec846ccd4be7d21cdfb2e5" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; main.java.com.company.dijkstratest.Main.adjacencies</definition>
+        <argsstring></argsstring>
+        <name>adjacencies</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="13" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" compoundref="_main_8java" startline="24" endline="64">main.java.com.company.dijkstratest.Main.go</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a9e9e1529522bffb58584b4f319e07217" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Main.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <initializer>= new ArrayList&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="14" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a3e5569d3503edf65388ea1b8fad02742" compoundref="_main_8java" startline="69" endline="80">main.java.com.company.dijkstratest.Main.displayPrefix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" compoundref="_main_8java" startline="24" endline="64">main.java.com.company.dijkstratest.Main.go</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a557eccaa4afe7d83cf6cc262d1ba1f3d" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Main.toBeProcessed</definition>
+        <argsstring></argsstring>
+        <name>toBeProcessed</name>
+        <initializer>= new ArrayList&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" compoundref="_main_8java" startline="24" endline="64">main.java.com.company.dijkstratest.Main.go</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1af031de92d898217502e31dcd4d6c9539" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Main.eliminatedList</definition>
+        <argsstring></argsstring>
+        <name>eliminatedList</name>
+        <initializer>= new ArrayList&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="16" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" compoundref="_main_8java" startline="24" endline="64">main.java.com.company.dijkstratest.Main.go</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a41add3527abb4fb4d0c9640aa20fba59" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void main.java.com.company.dijkstratest.Main.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Main.go</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>go</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="24" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="24" bodyend="64"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a0d4996e719ec846ccd4be7d21cdfb2e5" compoundref="_main_8java" startline="13">main.java.com.company.dijkstratest.Main.adjacencies</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1af031de92d898217502e31dcd4d6c9539" compoundref="_main_8java" startline="16">main.java.com.company.dijkstratest.Main.eliminatedList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a557eccaa4afe7d83cf6cc262d1ba1f3d" compoundref="_main_8java" startline="15">main.java.com.company.dijkstratest.Main.toBeProcessed</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a9e9e1529522bffb58584b4f319e07217" compoundref="_main_8java" startline="14">main.java.com.company.dijkstratest.Main.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a3e5569d3503edf65388ea1b8fad02742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Main.displayPrefix</definition>
+        <argsstring>()</argsstring>
+        <name>displayPrefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print the prefix row </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="69" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="69" bodyend="80"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a9e9e1529522bffb58584b4f319e07217" compoundref="_main_8java" startline="14">main.java.com.company.dijkstratest.Main.vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="61">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="60">
+        <label>main.java.com.company.dijkstratest.Main</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>eliminatedList</edgelabel>
+          <edgelabel>toBeProcessed</edgelabel>
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Main.java" bodystart="11" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a0d4996e719ec846ccd4be7d21cdfb2e5" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>adjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a3e5569d3503edf65388ea1b8fad02742" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>displayPrefix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1af031de92d898217502e31dcd4d6c9539" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>eliminatedList</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1aecef650b770eeab79fb0620dee263f77" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>go</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a41add3527abb4fb4d0c9640aa20fba59" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>main</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a557eccaa4afe7d83cf6cc262d1ba1f3d" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>toBeProcessed</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_1a9e9e1529522bffb58584b4f319e07217" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Main</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

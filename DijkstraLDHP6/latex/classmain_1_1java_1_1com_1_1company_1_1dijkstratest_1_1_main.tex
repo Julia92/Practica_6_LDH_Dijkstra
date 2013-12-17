@@ -1,0 +1,142 @@
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main}{\section{main.\-java.\-com.\-company.\-dijkstratest.\-Main Class Reference}
+\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main}\index{main.\-java.\-com.\-company.\-dijkstratest.\-Main@{main.\-java.\-com.\-company.\-dijkstratest.\-Main}}
+}
+
+
+Collaboration diagram for main.\-java.\-com.\-company.\-dijkstratest.\-Main\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_aecef650b770eeab79fb0620dee263f77}{go} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a3e5569d3503edf65388ea1b8fad02742}{display\-Prefix} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a41add3527abb4fb4d0c9640aa20fba59}{main} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\-List$<$ String $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a0d4996e719ec846ccd4be7d21cdfb2e5}{adjacencies} = new Array\-List$<$String$>$()
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a9e9e1529522bffb58584b4f319e07217}{vertices} = new Array\-List$<$\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex}$>$()
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a557eccaa4afe7d83cf6cc262d1ba1f3d}{to\-Be\-Processed} = new Array\-List$<$\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex}$>$()
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_af031de92d898217502e31dcd4d6c9539}{eliminated\-List} = new Array\-List$<$\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex}$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+hzhang 
+\end{DoxyAuthor}
+
+
+Definition at line 11 of file Main.\-java.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a3e5569d3503edf65388ea1b8fad02742}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!display\-Prefix@{display\-Prefix}}
+\index{display\-Prefix@{display\-Prefix}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{display\-Prefix}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-display\-Prefix (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a3e5569d3503edf65388ea1b8fad02742}
+Print the prefix row 
+
+Definition at line 69 of file Main.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-vertices.
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_aecef650b770eeab79fb0620dee263f77}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!go@{go}}
+\index{go@{go}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{go}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-go (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_aecef650b770eeab79fb0620dee263f77}
+
+
+Definition at line 24 of file Main.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-adjacencies, main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-eliminated\-List, main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-to\-Be\-Processed, and main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-vertices.
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a41add3527abb4fb4d0c9640aa20fba59}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!main@{main}}
+\index{main@{main}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}static void main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-main (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a41add3527abb4fb4d0c9640aa20fba59}
+
+
+Definition at line 18 of file Main.\-java.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a0d4996e719ec846ccd4be7d21cdfb2e5}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!adjacencies@{adjacencies}}
+\index{adjacencies@{adjacencies}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{adjacencies}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<$String$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-adjacencies = new Array\-List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a0d4996e719ec846ccd4be7d21cdfb2e5}
+
+
+Definition at line 13 of file Main.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-go().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_af031de92d898217502e31dcd4d6c9539}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!eliminated\-List@{eliminated\-List}}
+\index{eliminated\-List@{eliminated\-List}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{eliminated\-List}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-eliminated\-List = new Array\-List$<${\bf Vertex}$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_af031de92d898217502e31dcd4d6c9539}
+
+
+Definition at line 16 of file Main.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-go().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a557eccaa4afe7d83cf6cc262d1ba1f3d}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!to\-Be\-Processed@{to\-Be\-Processed}}
+\index{to\-Be\-Processed@{to\-Be\-Processed}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{to\-Be\-Processed}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-to\-Be\-Processed = new Array\-List$<${\bf Vertex}$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a557eccaa4afe7d83cf6cc262d1ba1f3d}
+
+
+Definition at line 15 of file Main.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-go().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a9e9e1529522bffb58584b4f319e07217}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}!vertices@{vertices}}
+\index{vertices@{vertices}!main::java::com::company::dijkstratest::Main@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Main}}
+\subsubsection[{vertices}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-vertices = new Array\-List$<${\bf Vertex}$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main_a9e9e1529522bffb58584b4f319e07217}
+
+
+Definition at line 14 of file Main.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-display\-Prefix(), and main.\-java.\-com.\-company.\-dijkstratest.\-Main.\-go().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/company/dijkstratest/\hyperlink{_main_8java}{Main.\-java}\end{DoxyCompactItemize}

@@ -1,0 +1,88 @@
+.TH "main.java.com.company.dijkstratest.Registration" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.Registration \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRegistration\fP (ArrayList< \fBVertex\fP > \fBvertices\fP, ArrayList< String > \fBadjacencies\fP)"
+.br
+.ti -1c
+.RI "void \fBregisterVertices\fP (String phonesFile)"
+.br
+.ti -1c
+.RI "void \fBregisterAdjacencies\fP (String adjacenciesFile)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "final ArrayList< String > \fBadjacencies\fP"
+.br
+.ti -1c
+.RI "final ArrayList< \fBVertex\fP > \fBvertices\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Read phone information and phones-neighborhood relationship info from two files 
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 16 of file Registration\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.Registration (ArrayList< \fBVertex\fP >vertices, ArrayList< String >adjacencies)"
+Constructor
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvertices\fP list of all subscribers 
+.br
+\fIadjacencies\fP list of connected phone pairs 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file Registration\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.adjacencies, and main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.vertices\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.registerAdjacencies (StringadjacenciesFile)"
+Initializing all the phones who call/sms each other\&. Those 'op-cp' pairs satisfy with the condition: F = 40(SMS/Month) && 240(sec/Month) 
+.PP
+Definition at line 64 of file Registration\&.java\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.registerVertices (StringphonesFile)"
+Register subscribers with its phone numbers 
+.PP
+Definition at line 36 of file Registration\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "final ArrayList<String> main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.adjacencies\fC [private]\fP"
+
+.PP
+Definition at line 18 of file Registration\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.Registration()\&.
+.SS "final ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.vertices\fC [private]\fP"
+
+.PP
+Definition at line 19 of file Registration\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Registration\&.Registration()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

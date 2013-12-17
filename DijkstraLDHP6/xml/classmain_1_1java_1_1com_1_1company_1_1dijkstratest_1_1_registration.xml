@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::Registration</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a7a40c90a5de4173de7d70214b1c22700" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; String &gt;</type>
+        <definition>final ArrayList&lt;String&gt; main.java.com.company.dijkstratest.Registration.adjacencies</definition>
+        <argsstring></argsstring>
+        <name>adjacencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a0139c70aa03637c99ffbae2142572aba" compoundref="_registration_8java" startline="27" endline="31">main.java.com.company.dijkstratest.Registration.Registration</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1aacd4ad524e3c3d2d3e163ba14dc5e5d4" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>final ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Registration.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="19" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a0139c70aa03637c99ffbae2142572aba" compoundref="_registration_8java" startline="27" endline="31">main.java.com.company.dijkstratest.Registration.Registration</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a0139c70aa03637c99ffbae2142572aba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.Registration.Registration</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; vertices, ArrayList&lt; String &gt; adjacencies)</argsstring>
+        <name>Registration</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>adjacencies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of all subscribers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>adjacencies</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of connected phone pairs </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="27" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="27" bodyend="31"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a7a40c90a5de4173de7d70214b1c22700" compoundref="_registration_8java" startline="18">main.java.com.company.dijkstratest.Registration.adjacencies</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1aacd4ad524e3c3d2d3e163ba14dc5e5d4" compoundref="_registration_8java" startline="19">main.java.com.company.dijkstratest.Registration.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1adc93e97fd7f83981bad275bd013f3cc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Registration.registerVertices</definition>
+        <argsstring>(String phonesFile)</argsstring>
+        <name>registerVertices</name>
+        <param>
+          <type>String</type>
+          <declname>phonesFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register subscribers with its phone numbers </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="36" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="36" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a1ce9fa88223cb28f8bd0e1052cadfe95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Registration.registerAdjacencies</definition>
+        <argsstring>(String adjacenciesFile)</argsstring>
+        <name>registerAdjacencies</name>
+        <param>
+          <type>String</type>
+          <declname>adjacenciesFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializing all the phones who call/sms each other. Those &quot;op-cp&quot; pairs satisfy with the condition: F = 40(SMS/Month) &amp;&amp; 240(sec/Month) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="64" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="64" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Read phone information and phones-neighborhood relationship info from two files <simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="73">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="72">
+        <label>main.java.com.company.dijkstratest.Registration</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration"/>
+        <childnode refid="73" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="74" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="74">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" line="17" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Registration.java" bodystart="16" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a7a40c90a5de4173de7d70214b1c22700" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Registration</scope><name>adjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a1ce9fa88223cb28f8bd0e1052cadfe95" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Registration</scope><name>registerAdjacencies</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1adc93e97fd7f83981bad275bd013f3cc6" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Registration</scope><name>registerVertices</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1a0139c70aa03637c99ffbae2142572aba" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Registration</scope><name>Registration</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration_1aacd4ad524e3c3d2d3e163ba14dc5e5d4" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Registration</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

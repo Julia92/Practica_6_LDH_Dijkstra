@@ -1,0 +1,116 @@
+.TH "main.java.com.company.dijkstratest.Pair" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.Pair \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Comparable< Pair >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPair\fP (\fBVertex\fP v, int s)"
+.br
+.ti -1c
+.RI "\fBVertex\fP \fBgetVertex\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetStepNumberToInfinity\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetStepNumber\fP ()"
+.br
+.ti -1c
+.RI "int \fBcompareTo\fP (\fBPair\fP other)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBVertex\fP \fBvertex\fP"
+.br
+.ti -1c
+.RI "int \fBstepNumber\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBPair\fP hold vertex and the steps from the vertex to all others 
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 7 of file Pair\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.Pair (\fBVertex\fPv, ints)"
+
+.PP
+Definition at line 12 of file Pair\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "int main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.compareTo (\fBPair\fPother)"
+Sort \fBPair\fP object 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIother\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 38 of file Pair\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getStepNumber(), and main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getVertex()\&.
+.SS "int main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getStepNumber ()"
+
+.PP
+Definition at line 28 of file Pair\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.stepNumber\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.compareTo()\&.
+.SS "\fBVertex\fP main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getVertex ()"
+
+.PP
+Definition at line 18 of file Pair\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.vertex\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.compareTo()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.setStepNumberToInfinity ()"
+
+.PP
+Definition at line 23 of file Pair\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.stepNumber\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "int main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.stepNumber\fC [private]\fP"
+
+.PP
+Definition at line 10 of file Pair\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getStepNumber(), and main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.setStepNumberToInfinity()\&.
+.SS "\fBVertex\fP main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.vertex\fC [private]\fP"
+
+.PP
+Definition at line 9 of file Pair\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Pair\&.getVertex()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

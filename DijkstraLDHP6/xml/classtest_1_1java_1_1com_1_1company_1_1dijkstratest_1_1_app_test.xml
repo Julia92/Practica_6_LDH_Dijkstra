@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" kind="class" prot="public">
+    <compoundname>test::java::com::company::dijkstratest::AppTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1ab8981b2f8304e8c357c461c6fcc4a0ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>test.java.com.company.dijkstratest.AppTest.AppTest</definition>
+        <argsstring>(String testName)</argsstring>
+        <name>AppTest</name>
+        <param>
+          <type>String</type>
+          <declname>testName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create the test case</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>testName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the test case </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1a8a8c57d59a43320f7dcc1e03ecf6050c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void test.java.com.company.dijkstratest.AppTest.testApp</definition>
+        <argsstring>()</argsstring>
+        <name>testApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Rigourous Test :-) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" line="34" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1af663b7af9263e3cf82aedb00b10ef0ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Test</type>
+        <definition>static Test test.java.com.company.dijkstratest.AppTest.suite</definition>
+        <argsstring>()</argsstring>
+        <name>suite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the suite of tests being tested </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" line="26" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unit test for simple App. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>test.java.com.company.dijkstratest.AppTest</label>
+        <link refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>test.java.com.company.dijkstratest.AppTest</label>
+        <link refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java" bodystart="10" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1ab8981b2f8304e8c357c461c6fcc4a0ef" prot="public" virt="non-virtual"><scope>test::java::com::company::dijkstratest::AppTest</scope><name>AppTest</name></member>
+      <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1af663b7af9263e3cf82aedb00b10ef0ca" prot="public" virt="non-virtual"><scope>test::java::com::company::dijkstratest::AppTest</scope><name>suite</name></member>
+      <member refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1a8a8c57d59a43320f7dcc1e03ecf6050c" prot="public" virt="non-virtual"><scope>test::java::com::company::dijkstratest::AppTest</scope><name>testApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

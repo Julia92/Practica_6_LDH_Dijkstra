@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::ConnectionMatrix</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a0fcd8b3828105bd570fd97dca77db1ea" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; String &gt;</type>
+        <definition>final ArrayList&lt;String&gt; main.java.com.company.dijkstratest.ConnectionMatrix.adjacencyList</definition>
+        <argsstring></argsstring>
+        <name>adjacencyList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="13" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1abf29234358773911d627a62f49502e95" compoundref="_connection_matrix_8java" startline="23" endline="27">main.java.com.company.dijkstratest.ConnectionMatrix.ConnectionMatrix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" compoundref="_connection_matrix_8java" startline="37" endline="59">main.java.com.company.dijkstratest.ConnectionMatrix.registerAdjacenciesToEachVertex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>final ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.ConnectionMatrix.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="14" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1abf29234358773911d627a62f49502e95" compoundref="_connection_matrix_8java" startline="23" endline="27">main.java.com.company.dijkstratest.ConnectionMatrix.ConnectionMatrix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ab761efa04c328a3362d653a6612dd404" compoundref="_connection_matrix_8java" startline="77" endline="96">main.java.com.company.dijkstratest.ConnectionMatrix.fillGrid</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" compoundref="_connection_matrix_8java" startline="37" endline="59">main.java.com.company.dijkstratest.ConnectionMatrix.registerAdjacenciesToEachVertex</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a3c077791f0b8164d8c19f67d250f43fd" prot="private" static="no" mutable="no">
+        <type>final ArrayList&lt; ArrayList&lt; Integer &gt; &gt;</type>
+        <definition>final ArrayList&lt;ArrayList&lt;Integer&gt; &gt; main.java.com.company.dijkstratest.ConnectionMatrix.matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <initializer>= new ArrayList&lt;ArrayList&lt;Integer&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ad305dcd4ab25d7628dd843451e1856be" compoundref="_connection_matrix_8java" startline="98" endline="109">main.java.com.company.dijkstratest.ConnectionMatrix.displayConnectionMatrix</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1abf29234358773911d627a62f49502e95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.ConnectionMatrix.ConnectionMatrix</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; vertices, ArrayList&lt; String &gt; adjacencyList)</argsstring>
+        <name>ConnectionMatrix</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>adjacencyList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subscribersList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of all subscribers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>adjacencyList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of all neighbors </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="23" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="23" bodyend="27"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a0fcd8b3828105bd570fd97dca77db1ea" compoundref="_connection_matrix_8java" startline="13">main.java.com.company.dijkstratest.ConnectionMatrix.adjacencyList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" compoundref="_connection_matrix_8java" startline="14">main.java.com.company.dijkstratest.ConnectionMatrix.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.ConnectionMatrix.buildConnectionMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>buildConnectionMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="29" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="29" bodyend="34"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ad305dcd4ab25d7628dd843451e1856be" compoundref="_connection_matrix_8java" startline="98" endline="109">main.java.com.company.dijkstratest.ConnectionMatrix.displayConnectionMatrix</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ab761efa04c328a3362d653a6612dd404" compoundref="_connection_matrix_8java" startline="77" endline="96">main.java.com.company.dijkstratest.ConnectionMatrix.fillGrid</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" compoundref="_connection_matrix_8java" startline="37" endline="59">main.java.com.company.dijkstratest.ConnectionMatrix.registerAdjacenciesToEachVertex</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.ConnectionMatrix.registerAdjacenciesToEachVertex</definition>
+        <argsstring>()</argsstring>
+        <name>registerAdjacenciesToEachVertex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="37" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="37" bodyend="59"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a0fcd8b3828105bd570fd97dca77db1ea" compoundref="_connection_matrix_8java" startline="13">main.java.com.company.dijkstratest.ConnectionMatrix.adjacencyList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a40c35866fd543064f675971e91a88a75" compoundref="_connection_matrix_8java" startline="67" endline="71">main.java.com.company.dijkstratest.ConnectionMatrix.splitOpCp</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" compoundref="_connection_matrix_8java" startline="14">main.java.com.company.dijkstratest.ConnectionMatrix.vertices</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" compoundref="_connection_matrix_8java" startline="29" endline="34">main.java.com.company.dijkstratest.ConnectionMatrix.buildConnectionMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a40c35866fd543064f675971e91a88a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>String [] main.java.com.company.dijkstratest.ConnectionMatrix.splitOpCp</definition>
+        <argsstring>(String opCp)</argsstring>
+        <name>splitOpCp</name>
+        <param>
+          <type>String</type>
+          <declname>opCp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Split the &quot;op-cp&quot; form, and put op and cp into an array</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opCp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the &quot;op-cp&quot; String </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>an array holds both op and cp </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="67" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="67" bodyend="71"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" compoundref="_connection_matrix_8java" startline="37" endline="59">main.java.com.company.dijkstratest.ConnectionMatrix.registerAdjacenciesToEachVertex</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ab761efa04c328a3362d653a6612dd404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.ConnectionMatrix.fillGrid</definition>
+        <argsstring>()</argsstring>
+        <name>fillGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the Connection matrix base on the choose subscriber&apos;s neighborhood info with other subscribers </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="77" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="77" bodyend="96"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" compoundref="_connection_matrix_8java" startline="14">main.java.com.company.dijkstratest.ConnectionMatrix.vertices</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" compoundref="_connection_matrix_8java" startline="29" endline="34">main.java.com.company.dijkstratest.ConnectionMatrix.buildConnectionMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ad305dcd4ab25d7628dd843451e1856be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.ConnectionMatrix.displayConnectionMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>displayConnectionMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="98" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="98" bodyend="109"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a3c077791f0b8164d8c19f67d250f43fd" compoundref="_connection_matrix_8java" startline="15">main.java.com.company.dijkstratest.ConnectionMatrix.matrix</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" compoundref="_connection_matrix_8java" startline="29" endline="34">main.java.com.company.dijkstratest.ConnectionMatrix.buildConnectionMatrix</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Find the neighbor-relationship among all subscribers, and then build a connection matrix based on the neighborhood relationship</para><para><simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="51">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="49">
+        <label>main.java.com.company.dijkstratest.ConnectionMatrix</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>matrix</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>adjacencyList</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>ArrayList&lt; ArrayList&lt; Integer &gt; &gt;</label>
+      </node>
+      <node id="52">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/ConnectionMatrix.java" bodystart="11" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a0fcd8b3828105bd570fd97dca77db1ea" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>adjacencyList</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a883880082124638cae78f50746006e5b" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>buildConnectionMatrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1abf29234358773911d627a62f49502e95" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>ConnectionMatrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ad305dcd4ab25d7628dd843451e1856be" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>displayConnectionMatrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ab761efa04c328a3362d653a6612dd404" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>fillGrid</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a3c077791f0b8164d8c19f67d250f43fd" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>matrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1ade4179ca5619dadb5a2bbadab52ac93e" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>registerAdjacenciesToEachVertex</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a40c35866fd543064f675971e91a88a75" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>splitOpCp</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix_1a372aa9baecc703f490a3eef8845bc7a7" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::ConnectionMatrix</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

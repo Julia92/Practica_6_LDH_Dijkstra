@@ -1,0 +1,101 @@
+.TH "main.java.com.company.dijkstratest.Main" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.Main \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBgo\fP (String[] args)"
+.br
+.ti -1c
+.RI "void \fBdisplayPrefix\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< String > \fBadjacencies\fP = new ArrayList<String>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBvertices\fP = new ArrayList<\fBVertex\fP>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBtoBeProcessed\fP = new ArrayList<\fBVertex\fP>()"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBeliminatedList\fP = new ArrayList<\fBVertex\fP>()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 11 of file Main\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.displayPrefix ()"
+Print the prefix row 
+.PP
+Definition at line 69 of file Main\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.vertices\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.go (String[]args)"
+
+.PP
+Definition at line 24 of file Main\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.adjacencies, main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.eliminatedList, main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.toBeProcessed, and main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.vertices\&.
+.SS "static void main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.main (String[]args)\fC [static]\fP"
+
+.PP
+Definition at line 18 of file Main\&.java\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<String> main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.adjacencies = new ArrayList<String>()\fC [private]\fP"
+
+.PP
+Definition at line 13 of file Main\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.go()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.eliminatedList = new ArrayList<\fBVertex\fP>()\fC [private]\fP"
+
+.PP
+Definition at line 16 of file Main\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.go()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.toBeProcessed = new ArrayList<\fBVertex\fP>()\fC [private]\fP"
+
+.PP
+Definition at line 15 of file Main\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.go()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.vertices = new ArrayList<\fBVertex\fP>()\fC [private]\fP"
+
+.PP
+Definition at line 14 of file Main\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.displayPrefix(), and main\&.java\&.com\&.company\&.dijkstratest\&.Main\&.go()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

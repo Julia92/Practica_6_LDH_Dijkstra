@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="namespacemain_1_1java_1_1com_1_1company_1_1dijkstratest" kind="namespace">
+    <compoundname>main::java::com::company::dijkstratest</compoundname>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community" prot="public">main::java::com::company::dijkstratest::Community</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_connection_matrix" prot="public">main::java::com::company::dijkstratest::ConnectionMatrix</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_main" prot="public">main::java::com::company::dijkstratest::Main</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" prot="public">main::java::com::company::dijkstratest::Pair</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_registration" prot="public">main::java::com::company::dijkstratest::Registration</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix" prot="public">main::java::com::company::dijkstratest::StepsMatrix</innerclass>
+    <innerclass refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" prot="public">main::java::com::company::dijkstratest::Vertex</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::StepsMatrix</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a1a3eb1ca85e39b9b704bfe7e26256afb" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.StepsMatrix.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" compoundref="_steps_matrix_8java" startline="27" endline="37">main.java.com.company.dijkstratest.StepsMatrix.StepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.StepsMatrix.toBeProcessed</definition>
+        <argsstring></argsstring>
+        <name>toBeProcessed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="16" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a78a89eed56a05139649e2a34fd6b4fa7" compoundref="_steps_matrix_8java" startline="132" endline="143">main.java.com.company.dijkstratest.StepsMatrix.recovery</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" compoundref="_steps_matrix_8java" startline="27" endline="37">main.java.com.company.dijkstratest.StepsMatrix.StepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1af820b561be0222cbf21fd2a6134047b2" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.StepsMatrix.eliminatedList</definition>
+        <argsstring></argsstring>
+        <name>eliminatedList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="17" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" compoundref="_steps_matrix_8java" startline="27" endline="37">main.java.com.company.dijkstratest.StepsMatrix.StepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1acb65a2ac68a2b40a4aca6fe2d9276f0d" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.StepsMatrix.beingReturned</definition>
+        <argsstring></argsstring>
+        <name>beingReturned</name>
+        <initializer>= new ArrayList&lt;<ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="18" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a9f574c424ce414987499434ed7311858" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.com.company.dijkstratest.StepsMatrix.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="19" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" compoundref="_steps_matrix_8java" startline="27" endline="37">main.java.com.company.dijkstratest.StepsMatrix.StepsMatrix</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.StepsMatrix.StepsMatrix</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; vertices, ArrayList&lt; Vertex &gt; toBeProcessed, ArrayList&lt; Vertex &gt; eliminatedList)</argsstring>
+        <name>StepsMatrix</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>toBeProcessed</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>eliminatedList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>total vertices </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>toBeProcessed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>community candidates which will be processed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eliminatedList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the eliminated vertices </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="27" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="27" bodyend="37"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1af820b561be0222cbf21fd2a6134047b2" compoundref="_steps_matrix_8java" startline="17">main.java.com.company.dijkstratest.StepsMatrix.eliminatedList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a9f574c424ce414987499434ed7311858" compoundref="_steps_matrix_8java" startline="19">main.java.com.company.dijkstratest.StepsMatrix.size</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" compoundref="_steps_matrix_8java" startline="16">main.java.com.company.dijkstratest.StepsMatrix.toBeProcessed</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a1a3eb1ca85e39b9b704bfe7e26256afb" compoundref="_steps_matrix_8java" startline="15">main.java.com.company.dijkstratest.StepsMatrix.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>buildStepsMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build the steps matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="42" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="42" bodyend="75"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1acb65a2ac68a2b40a4aca6fe2d9276f0d" compoundref="_steps_matrix_8java" startline="18">main.java.com.company.dijkstratest.StepsMatrix.beingReturned</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" compoundref="_steps_matrix_8java" startline="81" endline="102">main.java.com.company.dijkstratest.StepsMatrix.calculateShortestPath</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa0ceb165ab3fe248dace9dce3c9fd1c6" compoundref="_steps_matrix_8java" startline="109" endline="113">main.java.com.company.dijkstratest.StepsMatrix.getCentrality</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a78a89eed56a05139649e2a34fd6b4fa7" compoundref="_steps_matrix_8java" startline="132" endline="143">main.java.com.company.dijkstratest.StepsMatrix.recovery</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a15b14136df6c93f78deff3e498093c5a" compoundref="_steps_matrix_8java" startline="119" endline="125">main.java.com.company.dijkstratest.StepsMatrix.reset</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a9f574c424ce414987499434ed7311858" compoundref="_steps_matrix_8java" startline="19">main.java.com.company.dijkstratest.StepsMatrix.size</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" compoundref="_steps_matrix_8java" startline="16">main.java.com.company.dijkstratest.StepsMatrix.toBeProcessed</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a1a3eb1ca85e39b9b704bfe7e26256afb" compoundref="_steps_matrix_8java" startline="15">main.java.com.company.dijkstratest.StepsMatrix.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.StepsMatrix.calculateShortestPath</definition>
+        <argsstring>(Vertex source)</argsstring>
+        <name>calculateShortestPath</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the shortest path based on DIJKSTRA algorithm. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="81" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="81" bodyend="102"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1ad4896ef0f829054d9a765436cdda7804" compoundref="_vertex_8java" startline="44" endline="44">main.java.com.company.dijkstratest.Vertex.getAdjacencies</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex_1a37e1d362f47485e54f2e0a9cf56ac8c3" compoundref="_vertex_8java" startline="26" endline="26">main.java.com.company.dijkstratest.Vertex.getWeight</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa0ceb165ab3fe248dace9dce3c9fd1c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float main.java.com.company.dijkstratest.StepsMatrix.getCentrality</definition>
+        <argsstring>(int diameter)</argsstring>
+        <name>getCentrality</name>
+        <param>
+          <type>int</type>
+          <declname>diameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the centrality with two digits fractions <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>diameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="109" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="109" bodyend="113"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a15b14136df6c93f78deff3e498093c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.StepsMatrix.reset</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; vertices)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset the minimum value to 0 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="119" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="119" bodyend="125"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a78a89eed56a05139649e2a34fd6b4fa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.StepsMatrix.recovery</definition>
+        <argsstring>(Vertex source, int diameter)</argsstring>
+        <name>recovery</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>diameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>put the vertices whose diameter &gt; 10 back to the original vertices <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>diameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="132" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="132" bodyend="143"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" compoundref="_steps_matrix_8java" startline="16">main.java.com.company.dijkstratest.StepsMatrix.toBeProcessed</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" compoundref="_steps_matrix_8java" startline="42" endline="75">main.java.com.company.dijkstratest.StepsMatrix.buildStepsMatrix</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_dijkstra" kindref="compound">Dijkstra</ref>: find the shortest path to vertices <simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="77">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="76">
+        <label>main.java.com.company.dijkstratest.StepsMatrix</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>eliminatedList</edgelabel>
+          <edgelabel>toBeProcessed</edgelabel>
+          <edgelabel>beingReturned</edgelabel>
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" line="14" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/StepsMatrix.java" bodystart="13" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1acb65a2ac68a2b40a4aca6fe2d9276f0d" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>beingReturned</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a25baaea9cd4f24583b9f81b317b88245" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>buildStepsMatrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a0d41b80e6dd2a43ac0da575866d00a32" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>calculateShortestPath</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1af820b561be0222cbf21fd2a6134047b2" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>eliminatedList</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa0ceb165ab3fe248dace9dce3c9fd1c6" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>getCentrality</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a78a89eed56a05139649e2a34fd6b4fa7" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>recovery</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a15b14136df6c93f78deff3e498093c5a" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>reset</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a9f574c424ce414987499434ed7311858" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>size</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a656c4786dc8adb10dc37018d8c2c1e66" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>StepsMatrix</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1aa51c97e07faba7d835f614554810ab44" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>toBeProcessed</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_steps_matrix_1a1a3eb1ca85e39b9b704bfe7e26256afb" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::StepsMatrix</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

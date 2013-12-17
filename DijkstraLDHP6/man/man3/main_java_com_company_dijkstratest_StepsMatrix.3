@@ -1,0 +1,186 @@
+.TH "main.java.com.company.dijkstratest.StepsMatrix" 3 "Tue Dec 17 2013" "Version 1.0" "P6_LDH" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+main.java.com.company.dijkstratest.StepsMatrix \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStepsMatrix\fP (ArrayList< \fBVertex\fP > \fBvertices\fP, ArrayList< \fBVertex\fP > \fBtoBeProcessed\fP, ArrayList< \fBVertex\fP > \fBeliminatedList\fP)"
+.br
+.ti -1c
+.RI "void \fBbuildStepsMatrix\fP ()"
+.br
+.ti -1c
+.RI "void \fBcalculateShortestPath\fP (\fBVertex\fP source)"
+.br
+.ti -1c
+.RI "float \fBgetCentrality\fP (int diameter)"
+.br
+.ti -1c
+.RI "void \fBreset\fP (ArrayList< \fBVertex\fP > \fBvertices\fP)"
+.br
+.ti -1c
+.RI "void \fBrecovery\fP (\fBVertex\fP source, int diameter)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBtoBeProcessed\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBeliminatedList\fP"
+.br
+.ti -1c
+.RI "ArrayList< \fBVertex\fP > \fBbeingReturned\fP = new ArrayList<\fBVertex\fP>()"
+.br
+.ti -1c
+.RI "int \fBsize\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBDijkstra\fP: find the shortest path to vertices 
+.PP
+\fBAuthor:\fP
+.RS 4
+hzhang 
+.RE
+.PP
+
+.PP
+Definition at line 13 of file StepsMatrix\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.StepsMatrix (ArrayList< \fBVertex\fP >vertices, ArrayList< \fBVertex\fP >toBeProcessed, ArrayList< \fBVertex\fP >eliminatedList)"
+Constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvertices\fP total vertices 
+.br
+\fItoBeProcessed\fP community candidates which will be processed 
+.br
+\fIeliminatedList\fP the eliminated vertices 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file StepsMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.eliminatedList, main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.size, main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.toBeProcessed, and main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.vertices\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix ()"
+Build the steps matrix\&. 
+.PP
+Definition at line 42 of file StepsMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.beingReturned, main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.calculateShortestPath(), main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.getCentrality(), main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.recovery(), main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.reset(), main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.size, main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.toBeProcessed, and main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.vertices\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.calculateShortestPath (\fBVertex\fPsource)"
+Calculate the shortest path based on DIJKSTRA algorithm\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsource\fP 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file StepsMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.Vertex\&.getAdjacencies(), and main\&.java\&.com\&.company\&.dijkstratest\&.Vertex\&.getWeight()\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix()\&.
+.SS "float main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.getCentrality (intdiameter)"
+Return the centrality with two digits fractions 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdiameter\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 109 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.recovery (\fBVertex\fPsource, intdiameter)"
+put the vertices whose diameter > 10 back to the original vertices 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsource\fP 
+.br
+\fIdiameter\fP 
+.RE
+.PP
+
+.PP
+Definition at line 132 of file StepsMatrix\&.java\&.
+.PP
+References main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.toBeProcessed\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix()\&.
+.SS "void main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.reset (ArrayList< \fBVertex\fP >vertices)"
+Reset the minimum value to 0 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvertices\fP 
+.RE
+.PP
+
+.PP
+Definition at line 119 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.beingReturned = new ArrayList<\fBVertex\fP>()\fC [private]\fP"
+
+.PP
+Definition at line 18 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.eliminatedList\fC [private]\fP"
+
+.PP
+Definition at line 17 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.StepsMatrix()\&.
+.SS "int main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.size\fC [private]\fP"
+
+.PP
+Definition at line 19 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix(), and main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.StepsMatrix()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.toBeProcessed\fC [private]\fP"
+
+.PP
+Definition at line 16 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix(), main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.recovery(), and main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.StepsMatrix()\&.
+.SS "ArrayList<\fBVertex\fP> main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.vertices\fC [private]\fP"
+
+.PP
+Definition at line 15 of file StepsMatrix\&.java\&.
+.PP
+Referenced by main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.buildStepsMatrix(), and main\&.java\&.com\&.company\&.dijkstratest\&.StepsMatrix\&.StepsMatrix()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for P6_LDH from the source code\&.

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community" kind="class" prot="public">
+    <compoundname>main::java::com::company::dijkstratest::Community</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Community.vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="12" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" compoundref="_community_8java" startline="17" endline="24">main.java.com.company.dijkstratest.Community.Community</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" compoundref="_community_8java" startline="43" endline="57">main.java.com.company.dijkstratest.Community.getHighestCentralitied</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" compoundref="_community_8java" startline="123" endline="140">main.java.com.company.dijkstratest.Community.resetSteps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a2ccabf2789253dffe72aa412e7412f7d" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Community.toBeProcessed</definition>
+        <argsstring></argsstring>
+        <name>toBeProcessed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="13" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" compoundref="_community_8java" startline="29" endline="36">main.java.com.company.dijkstratest.Community.buildCommunity</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" compoundref="_community_8java" startline="17" endline="24">main.java.com.company.dijkstratest.Community.Community</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a580104f4f16e9646bb1c4b3ea36c20a5" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Community.eliminatedList</definition>
+        <argsstring></argsstring>
+        <name>eliminatedList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="14" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" compoundref="_community_8java" startline="17" endline="24">main.java.com.company.dijkstratest.Community.Community</referencedby>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" compoundref="_community_8java" startline="123" endline="140">main.java.com.company.dijkstratest.Community.resetSteps</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1adbb6dc448c6e9ffdcd3207b5117e5ac6" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>ArrayList&lt;Pair&gt; main.java.com.company.dijkstratest.Community.steps</definition>
+        <argsstring></argsstring>
+        <name>steps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="15" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a11c0953e985a94460b905218c3c80291" compoundref="_community_8java" startline="65" endline="78">main.java.com.company.dijkstratest.Community.getCommunityCandidates</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.com.company.dijkstratest.Community.Community</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; vertices, ArrayList&lt; Vertex &gt; toBeProcessed, ArrayList&lt; Vertex &gt; eliminatedList)</argsstring>
+        <name>Community</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>toBeProcessed</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>eliminatedList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="17" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="17" bodyend="24"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a580104f4f16e9646bb1c4b3ea36c20a5" compoundref="_community_8java" startline="14">main.java.com.company.dijkstratest.Community.eliminatedList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" compoundref="_community_8java" startline="123" endline="140">main.java.com.company.dijkstratest.Community.resetSteps</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a2ccabf2789253dffe72aa412e7412f7d" compoundref="_community_8java" startline="13">main.java.com.company.dijkstratest.Community.toBeProcessed</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" compoundref="_community_8java" startline="12">main.java.com.company.dijkstratest.Community.vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Community.buildCommunity</definition>
+        <argsstring>()</argsstring>
+        <name>buildCommunity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community" kindref="compound">Community</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="29" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="29" bodyend="36"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba4c016c6178f4b4f6e2a29874c0c619" compoundref="_community_8java" startline="84" endline="92">main.java.com.company.dijkstratest.Community.deleteCandidates</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a11c0953e985a94460b905218c3c80291" compoundref="_community_8java" startline="65" endline="78">main.java.com.company.dijkstratest.Community.getCommunityCandidates</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" compoundref="_community_8java" startline="43" endline="57">main.java.com.company.dijkstratest.Community.getHighestCentralitied</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a2ccabf2789253dffe72aa412e7412f7d" compoundref="_community_8java" startline="13">main.java.com.company.dijkstratest.Community.toBeProcessed</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+        <definition>Vertex main.java.com.company.dijkstratest.Community.getHighestCentralitied</definition>
+        <argsstring>()</argsstring>
+        <name>getHighestCentralitied</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the vertex which has the highest centrality/smallest diameter</para><para><simplesect kind="return"><para>highest vertex </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="43" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="43" bodyend="57"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ab4d06c5bd90490a5713b1aa083cdeef9" compoundref="_community_8java" startline="101" endline="118">main.java.com.company.dijkstratest.Community.isIsolated</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" compoundref="_community_8java" startline="12">main.java.com.company.dijkstratest.Community.vertices</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" compoundref="_community_8java" startline="29" endline="36">main.java.com.company.dijkstratest.Community.buildCommunity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a11c0953e985a94460b905218c3c80291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>ArrayList&lt;Vertex&gt; main.java.com.company.dijkstratest.Community.getCommunityCandidates</definition>
+        <argsstring>(Vertex highest)</argsstring>
+        <name>getCommunityCandidates</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>highest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the vertices which belong to the community</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>highest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="65" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="65" bodyend="78"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1adbb6dc448c6e9ffdcd3207b5117e5ac6" compoundref="_community_8java" startline="15">main.java.com.company.dijkstratest.Community.steps</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" compoundref="_community_8java" startline="29" endline="36">main.java.com.company.dijkstratest.Community.buildCommunity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba4c016c6178f4b4f6e2a29874c0c619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Community.deleteCandidates</definition>
+        <argsstring>(ArrayList&lt; Vertex &gt; cCandidates)</argsstring>
+        <name>deleteCandidates</name>
+        <param>
+          <type>ArrayList&lt; <ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>cCandidates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delete community candidates from the original vertices <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cCandidates</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="84" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="84" bodyend="92"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" compoundref="_community_8java" startline="29" endline="36">main.java.com.company.dijkstratest.Community.buildCommunity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ab4d06c5bd90490a5713b1aa083cdeef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.com.company.dijkstratest.Community.isIsolated</definition>
+        <argsstring>(Vertex v)</argsstring>
+        <name>isIsolated</name>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex" kindref="compound">Vertex</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checking whether a vertex is isolated If it is, it will not be chosen as a highest centrality vertex. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="101" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="101" bodyend="118"/>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" compoundref="_community_8java" startline="43" endline="57">main.java.com.company.dijkstratest.Community.getHighestCentralitied</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.com.company.dijkstratest.Community.resetSteps</definition>
+        <argsstring>()</argsstring>
+        <name>resetSteps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the steps to the eliminated vertex to be INFINITY. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="123" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="123" bodyend="140"/>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a580104f4f16e9646bb1c4b3ea36c20a5" compoundref="_community_8java" startline="14">main.java.com.company.dijkstratest.Community.eliminatedList</references>
+        <references refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" compoundref="_community_8java" startline="12">main.java.com.company.dijkstratest.Community.vertices</references>
+        <referencedby refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" compoundref="_community_8java" startline="17" endline="24">main.java.com.company.dijkstratest.Community.Community</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community" kindref="compound">Community</ref> is to find all the community candidates <simplesect kind="author"><para>hzhang </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="46">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Vertex &gt;</label>
+      </node>
+      <node id="47">
+        <label>ArrayList&lt; main.java.com.company.dijkstratest.Pair &gt;</label>
+      </node>
+      <node id="45">
+        <label>main.java.com.company.dijkstratest.Community</label>
+        <link refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community"/>
+        <childnode refid="46" relation="usage">
+          <edgelabel>eliminatedList</edgelabel>
+          <edgelabel>toBeProcessed</edgelabel>
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>steps</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" line="11" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/main/java/com/company/dijkstratest/Community.java" bodystart="10" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ac67908826386b0b27d640714ddca078c" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>buildCommunity</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a948a27b50995af847cd53c449349ed7c" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>Community</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba4c016c6178f4b4f6e2a29874c0c619" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>deleteCandidates</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a580104f4f16e9646bb1c4b3ea36c20a5" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>eliminatedList</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a11c0953e985a94460b905218c3c80291" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>getCommunityCandidates</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1af8ba9d3ca770ca1683efe6e0b842d2d5" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>getHighestCentralitied</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1ab4d06c5bd90490a5713b1aa083cdeef9" prot="public" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>isIsolated</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1aba69300314e63161ff7e0a3b5aebe2ad" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>resetSteps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1adbb6dc448c6e9ffdcd3207b5117e5ac6" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>steps</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a2ccabf2789253dffe72aa412e7412f7d" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>toBeProcessed</name></member>
+      <member refid="classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_1a00e314391bafea784ad183152dcd6091" prot="private" virt="non-virtual"><scope>main::java::com::company::dijkstratest::Community</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

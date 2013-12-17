@@ -1,0 +1,295 @@
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community}{\section{main.\-java.\-com.\-company.\-dijkstratest.\-Community Class Reference}
+\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community}\index{main.\-java.\-com.\-company.\-dijkstratest.\-Community@{main.\-java.\-com.\-company.\-dijkstratest.\-Community}}
+}
+
+
+Collaboration diagram for main.\-java.\-com.\-company.\-dijkstratest.\-Community\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a948a27b50995af847cd53c449349ed7c}{Community} (Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a00e314391bafea784ad183152dcd6091}{vertices}, Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a2ccabf2789253dffe72aa412e7412f7d}{to\-Be\-Processed}, Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a580104f4f16e9646bb1c4b3ea36c20a5}{eliminated\-List})
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ac67908826386b0b27d640714ddca078c}{build\-Community} ()
+\item 
+\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_af8ba9d3ca770ca1683efe6e0b842d2d5}{get\-Highest\-Centralitied} ()
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a11c0953e985a94460b905218c3c80291}{get\-Community\-Candidates} (\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} highest)
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba4c016c6178f4b4f6e2a29874c0c619}{delete\-Candidates} (Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ c\-Candidates)
+\item 
+boolean \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ab4d06c5bd90490a5713b1aa083cdeef9}{is\-Isolated} (\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} v)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba69300314e63161ff7e0a3b5aebe2ad}{reset\-Steps} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a00e314391bafea784ad183152dcd6091}{vertices}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a2ccabf2789253dffe72aa412e7412f7d}{to\-Be\-Processed}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_vertex}{Vertex} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a580104f4f16e9646bb1c4b3ea36c20a5}{eliminated\-List}
+\item 
+Array\-List$<$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_pair}{Pair} $>$ \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_adbb6dc448c6e9ffdcd3207b5117e5ac6}{steps}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community}{Community} is to find all the community candidates \begin{DoxyAuthor}{Author}
+hzhang 
+\end{DoxyAuthor}
+
+
+Definition at line 10 of file Community.\-java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a948a27b50995af847cd53c449349ed7c}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!Community@{Community}}
+\index{Community@{Community}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{Community}]{\setlength{\rightskip}{0pt plus 5cm}main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-Community (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{vertices, }
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{to\-Be\-Processed, }
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{eliminated\-List}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a948a27b50995af847cd53c449349ed7c}
+
+
+Definition at line 17 of file Community.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-eliminated\-List, main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-reset\-Steps(), main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-to\-Be\-Processed, and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-vertices.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a948a27b50995af847cd53c449349ed7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ac67908826386b0b27d640714ddca078c}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!build\-Community@{build\-Community}}
+\index{build\-Community@{build\-Community}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{build\-Community}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-build\-Community (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ac67908826386b0b27d640714ddca078c}
+Build \hyperlink{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community}{Community} 
+
+Definition at line 29 of file Community.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-delete\-Candidates(), main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Community\-Candidates(), main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Highest\-Centralitied(), and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-to\-Be\-Processed.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ac67908826386b0b27d640714ddca078c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba4c016c6178f4b4f6e2a29874c0c619}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!delete\-Candidates@{delete\-Candidates}}
+\index{delete\-Candidates@{delete\-Candidates}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{delete\-Candidates}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-delete\-Candidates (
+\begin{DoxyParamCaption}
+\item[{Array\-List$<$ {\bf Vertex} $>$}]{c\-Candidates}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba4c016c6178f4b4f6e2a29874c0c619}
+Delete community candidates from the original vertices 
+\begin{DoxyParams}{Parameters}
+{\em c\-Candidates} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 84 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-build\-Community().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a11c0953e985a94460b905218c3c80291}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!get\-Community\-Candidates@{get\-Community\-Candidates}}
+\index{get\-Community\-Candidates@{get\-Community\-Candidates}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{get\-Community\-Candidates}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Community\-Candidates (
+\begin{DoxyParamCaption}
+\item[{{\bf Vertex}}]{highest}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a11c0953e985a94460b905218c3c80291}
+Get the vertices which belong to the community
+
+
+\begin{DoxyParams}{Parameters}
+{\em highest} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 65 of file Community.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-steps.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-build\-Community().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_af8ba9d3ca770ca1683efe6e0b842d2d5}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!get\-Highest\-Centralitied@{get\-Highest\-Centralitied}}
+\index{get\-Highest\-Centralitied@{get\-Highest\-Centralitied}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{get\-Highest\-Centralitied}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vertex} main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Highest\-Centralitied (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_af8ba9d3ca770ca1683efe6e0b842d2d5}
+Get the vertex which has the highest centrality/smallest diameter
+
+\begin{DoxyReturn}{Returns}
+highest vertex 
+\end{DoxyReturn}
+
+
+Definition at line 43 of file Community.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-is\-Isolated(), and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-vertices.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-build\-Community().
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_af8ba9d3ca770ca1683efe6e0b842d2d5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ab4d06c5bd90490a5713b1aa083cdeef9}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!is\-Isolated@{is\-Isolated}}
+\index{is\-Isolated@{is\-Isolated}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{is\-Isolated}]{\setlength{\rightskip}{0pt plus 5cm}boolean main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-is\-Isolated (
+\begin{DoxyParamCaption}
+\item[{{\bf Vertex}}]{v}
+\end{DoxyParamCaption}
+)}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_ab4d06c5bd90490a5713b1aa083cdeef9}
+Checking whether a vertex is isolated If it is, it will not be chosen as a highest centrality vertex. 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 101 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Highest\-Centralitied().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba69300314e63161ff7e0a3b5aebe2ad}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!reset\-Steps@{reset\-Steps}}
+\index{reset\-Steps@{reset\-Steps}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{reset\-Steps}]{\setlength{\rightskip}{0pt plus 5cm}void main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-reset\-Steps (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_aba69300314e63161ff7e0a3b5aebe2ad}
+Set the steps to the eliminated vertex to be I\-N\-F\-I\-N\-I\-T\-Y. 
+
+Definition at line 123 of file Community.\-java.
+
+
+
+References main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-eliminated\-List, and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-vertices.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-Community().
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a580104f4f16e9646bb1c4b3ea36c20a5}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!eliminated\-List@{eliminated\-List}}
+\index{eliminated\-List@{eliminated\-List}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{eliminated\-List}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-eliminated\-List\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a580104f4f16e9646bb1c4b3ea36c20a5}
+
+
+Definition at line 14 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-Community(), and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-reset\-Steps().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_adbb6dc448c6e9ffdcd3207b5117e5ac6}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!steps@{steps}}
+\index{steps@{steps}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{steps}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Pair}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-steps\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_adbb6dc448c6e9ffdcd3207b5117e5ac6}
+
+
+Definition at line 15 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Community\-Candidates().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a2ccabf2789253dffe72aa412e7412f7d}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!to\-Be\-Processed@{to\-Be\-Processed}}
+\index{to\-Be\-Processed@{to\-Be\-Processed}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{to\-Be\-Processed}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-to\-Be\-Processed\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a2ccabf2789253dffe72aa412e7412f7d}
+
+
+Definition at line 13 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-build\-Community(), and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-Community().
+
+\hypertarget{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a00e314391bafea784ad183152dcd6091}{\index{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}!vertices@{vertices}}
+\index{vertices@{vertices}!main::java::com::company::dijkstratest::Community@{main\-::java\-::com\-::company\-::dijkstratest\-::\-Community}}
+\subsubsection[{vertices}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Vertex}$>$ main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-vertices\hspace{0.3cm}{\ttfamily [private]}}}\label{classmain_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_community_a00e314391bafea784ad183152dcd6091}
+
+
+Definition at line 12 of file Community.\-java.
+
+
+
+Referenced by main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-Community(), main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-get\-Highest\-Centralitied(), and main.\-java.\-com.\-company.\-dijkstratest.\-Community.\-reset\-Steps().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/company/dijkstratest/\hyperlink{_community_8java}{Community.\-java}\end{DoxyCompactItemize}

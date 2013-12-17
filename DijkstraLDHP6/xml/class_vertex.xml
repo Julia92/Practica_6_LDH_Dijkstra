@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_vertex" kind="class" prot="package">
+    <compoundname>Vertex</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Comparable&lt; Vertex &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_vertex_1a6f278d06addf274f9dfe1e97d0c3dcdc" prot="public" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String Vertex.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="34" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vertex_1ab64018801c6d14195c4e96e45bfc3059" prot="public" static="no" mutable="no">
+        <type>Edge[]</type>
+        <definition>Edge [] Vertex.adjacencies</definition>
+        <argsstring></argsstring>
+        <name>adjacencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="35" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vertex_1a94dc988b1cfea0fda6c78827d925c2a8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vertex.minDistance</definition>
+        <argsstring></argsstring>
+        <name>minDistance</name>
+        <initializer>= Double.POSITIVE_INFINITY</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="36" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_vertex_1a3e4df79880cf87b5c6dd097f761db447" prot="public" static="no" mutable="no">
+        <type>Vertex</type>
+        <definition>Vertex Vertex.previous</definition>
+        <argsstring></argsstring>
+        <name>previous</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="37" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vertex_1ad869c402d64294dd162dc02dea3a9832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vertex.Vertex</definition>
+        <argsstring>(String argName)</argsstring>
+        <name>Vertex</name>
+        <param>
+          <type>String</type>
+          <declname>argName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="38" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vertex_1adbb0cc3d32b5d7587177d991155341d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Vertex.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="39" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vertex_1a0724da112f69f93ab158520d1cc6d7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Vertex.compareTo</definition>
+        <argsstring>(Vertex other)</argsstring>
+        <name>compareTo</name>
+        <param>
+          <type>Vertex</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="40" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="78">
+        <label>Vertex</label>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Comparable&lt;Vertex&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="80">
+        <label>Vertex</label>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>previous</edgelabel>
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>adjacencies</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>Edge</label>
+        <childnode refid="80" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Comparable&lt;Vertex&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" line="33" column="1" bodyfile="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/help/Dijkstra.java" bodystart="32" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_vertex_1ab64018801c6d14195c4e96e45bfc3059" prot="public" virt="non-virtual"><scope>Vertex</scope><name>adjacencies</name></member>
+      <member refid="class_vertex_1a0724da112f69f93ab158520d1cc6d7ce" prot="public" virt="non-virtual"><scope>Vertex</scope><name>compareTo</name></member>
+      <member refid="class_vertex_1a94dc988b1cfea0fda6c78827d925c2a8" prot="public" virt="non-virtual"><scope>Vertex</scope><name>minDistance</name></member>
+      <member refid="class_vertex_1a6f278d06addf274f9dfe1e97d0c3dcdc" prot="public" virt="non-virtual"><scope>Vertex</scope><name>name</name></member>
+      <member refid="class_vertex_1a3e4df79880cf87b5c6dd097f761db447" prot="public" virt="non-virtual"><scope>Vertex</scope><name>previous</name></member>
+      <member refid="class_vertex_1adbb0cc3d32b5d7587177d991155341d5" prot="public" virt="non-virtual"><scope>Vertex</scope><name>toString</name></member>
+      <member refid="class_vertex_1ad869c402d64294dd162dc02dea3a9832" prot="public" virt="non-virtual"><scope>Vertex</scope><name>Vertex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

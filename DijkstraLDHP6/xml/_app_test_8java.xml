@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="_app_test_8java" kind="file">
+    <compoundname>AppTest.java</compoundname>
+    <innerclass refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" prot="public">test::java::com::company::dijkstratest::AppTest</innerclass>
+    <innernamespace refid="namespacetest_1_1java_1_1com_1_1company_1_1dijkstratest">test::java::com::company::dijkstratest</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetest_1_1java_1_1com_1_1company_1_1dijkstratest" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">test.java.com.company.dijkstratest;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>junit.framework.Test;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>junit.framework.TestCase;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>junit.framework.TestSuite;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" kindref="compound">AppTest</ref><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>TestCase</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1ab8981b2f8304e8c357c461c6fcc4a0ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1ab8981b2f8304e8c357c461c6fcc4a0ef" kindref="member">AppTest</ref>(<sp/>String<sp/>testName<sp/>)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<sp/>testName<sp/>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1af663b7af9263e3cf82aedb00b10ef0ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Test<sp/><ref refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1af663b7af9263e3cf82aedb00b10ef0ca" kindref="member">suite</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TestSuite(<sp/><ref refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test" kindref="compound">AppTest</ref>.class<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1a8a8c57d59a43320f7dcc1e03ecf6050c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtest_1_1java_1_1com_1_1company_1_1dijkstratest_1_1_app_test_1a8a8c57d59a43320f7dcc1e03ecf6050c" kindref="member">testApp</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assertTrue(<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/JulyaMaria/git/Practica_6_LDH_Dijkstra/DijkstraLDHP6/src/test/java/com/company/dijkstratest/AppTest.java"/>
+  </compounddef>
+</doxygen>
